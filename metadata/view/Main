@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "activeItem": 4,
         "designer|initialView": true,
         "designer|userAlias": "main",
         "designer|userClassName": "Main",
@@ -79,6 +80,17 @@
             "name": "hung2",
             "designerId": "a6d0413c-3135-4569-9907-9dd622823d89",
             "masterInstanceId": "dd6e6553-26e4-4d98-98b3-89d56d892189"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "mycontainer5",
+            "designerId": "031bedd1-c140-4a8c-9780-6603038df035",
+            "masterInstanceId": "86a53092-682a-4340-a4f6-0f534b618a6f"
         }
     ]
 }

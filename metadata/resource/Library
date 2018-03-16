@@ -16,9 +16,9 @@
     "configAlternates": {
         "basePath": "uri",
         "designer|userClassName": "string",
-        "theme": "string",
-        "libraryRequires": "typedarray"
+        "libraryRequires": "typedarray",
+        "theme": "string"
     },
     "name": "Library",
-    "designerId": "cc3a5e36-4033-4dee-a016-de29491e130f"
+    "designerId": "a6f73396-1d38-4e69-b716-e161c7be941e"
 }

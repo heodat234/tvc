@@ -263,10 +263,14 @@
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "width": 120
+                                                "bodyStyle": "background-color: rgba(255,255,255,0.8);",
+                                                "style": "opacity:0.9;",
+                                                "width": 170
                                             },
                                             "configAlternates": {
-                                                "width": "auto"
+                                                "width": "auto",
+                                                "bodyStyle": "string",
+                                                "style": "string"
                                             },
                                             "name": "MyMenu",
                                             "designerId": "ab2394c4-d147-4da4-b61e-3d79a080637c",
@@ -281,12 +285,14 @@
                                                     "userConfig": {
                                                         "icon": "true",
                                                         "iconCls": "x-fa fa-user",
+                                                        "style": "",
                                                         "text": "Tài khoản"
                                                     },
                                                     "configAlternates": {
                                                         "icon": "string",
                                                         "iconCls": "string",
-                                                        "text": "string"
+                                                        "text": "string",
+                                                        "style": "string"
                                                     },
                                                     "name": "MyMenuItem",
                                                     "designerId": "0e26be3c-1c5f-4295-91ad-496390d8dc98"
@@ -299,10 +305,14 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "text": "Menu Item"
+                                                        "icon": "true",
+                                                        "iconCls": "x-fa fa-qrcode",
+                                                        "text": "QR Code"
                                                     },
                                                     "configAlternates": {
-                                                        "text": "string"
+                                                        "text": "string",
+                                                        "icon": "string",
+                                                        "iconCls": "string"
                                                     },
                                                     "name": "MyMenuItem1",
                                                     "designerId": "ad4f1f3b-73aa-41fc-8b48-d8339ca38ef8"
@@ -315,13 +325,77 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "text": "Menu Item"
+                                                        "icon": "true",
+                                                        "iconCls": "x-fa fa-question-circle-o",
+                                                        "text": "Hỗ trợ"
                                                     },
                                                     "configAlternates": {
-                                                        "text": "string"
+                                                        "text": "string",
+                                                        "icon": "string",
+                                                        "iconCls": "string"
                                                     },
                                                     "name": "MyMenuItem2",
                                                     "designerId": "5044c735-ffa7-48ef-9e2e-cd24bb8dafc7"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "icon": "true",
+                                                        "iconCls": "x-fa fa-cog",
+                                                        "text": "Cài đặt"
+                                                    },
+                                                    "configAlternates": {
+                                                        "text": "string",
+                                                        "icon": "string",
+                                                        "iconCls": "string"
+                                                    },
+                                                    "name": "MyMenuItem3",
+                                                    "designerId": "b4ae9bd5-169f-47f4-a4af-45a272db1991"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "icon": "true",
+                                                        "iconCls": "x-fa fa-headphones",
+                                                        "text": "Liên hệ"
+                                                    },
+                                                    "configAlternates": {
+                                                        "text": "string",
+                                                        "icon": "string",
+                                                        "iconCls": "string"
+                                                    },
+                                                    "name": "MyMenuItem4",
+                                                    "designerId": "837667cc-7c8c-4715-bd17-0037228e494b"
+                                                },
+                                                {
+                                                    "type": "Ext.menu.Item",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "icon": "true",
+                                                        "iconCls": "x-fa fa-sign-out",
+                                                        "text": "Đăng xuất"
+                                                    },
+                                                    "configAlternates": {
+                                                        "text": "string",
+                                                        "icon": "string",
+                                                        "iconCls": "string"
+                                                    },
+                                                    "name": "MyMenuItem5",
+                                                    "designerId": "8cf6739a-276c-480c-bcaa-9789853271f7"
                                                 }
                                             ]
                                         }
