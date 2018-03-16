@@ -1,0 +1,84 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "main",
+        "designer|userClassName": "Main",
+        "docked": null,
+        "layout": "card"
+    },
+    "configAlternates": {
+        "container|animation": "auto",
+        "container|animation.direction": "string",
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string",
+        "activeItem": "number",
+        "style": "object",
+        "docked": "string"
+    },
+    "name": "MyContainer",
+    "designerId": "d4edd2f0-8447-4f1e-baca-6032039f6337",
+    "viewControllerInstanceId": "45232693-a3e4-4f6a-9605-a2fbc837e718",
+    "viewModelInstanceId": "4ce9ed6a-ab0a-437b-8cd1-6b9d8f34a4c7",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "newsdetail",
+            "designerId": "8bcf1436-f3b9-4771-bb7e-24125567927c",
+            "masterInstanceId": "942e6887-0fb6-4fc4-ac04-72e168c8734e"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": null,
+                "layout": "auto"
+            },
+            "configAlternates": {
+                "docked": "string",
+                "layout": "string"
+            },
+            "name": "hung81",
+            "designerId": "227eafb6-bff3-4b81-9922-07c37d326382",
+            "masterInstanceId": "af6eb3aa-fafe-4663-a0f2-273a14c5c2ae"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "hung41",
+            "designerId": "b2b3abcc-84b2-4983-bdb6-edcc0f60dfc0",
+            "masterInstanceId": "8958873f-a85d-422f-bdca-94d429cc76f6"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "hung2",
+            "designerId": "a6d0413c-3135-4569-9907-9dd622823d89",
+            "masterInstanceId": "dd6e6553-26e4-4d98-98b3-89d56d892189"
+        }
+    ]
+}

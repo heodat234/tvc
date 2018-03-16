@@ -1,0 +1,38 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "name": "adc",
+        "views": [
+            "Main",
+            "hung0",
+            "hung1",
+            "hung2",
+            "hung4",
+            "hung5",
+            "hung6",
+            "hung7",
+            "hung8",
+            "hung9",
+            "hung10",
+            "hung11",
+            "hung12",
+            "hung13",
+            "hung3",
+            "hung",
+            "MyContainer5",
+            "MyContainer4",
+            "MyContainer8"
+        ]
+    },
+    "configAlternates": {
+        "name": "string",
+        "views": "typedarray"
+    },
+    "name": "Application",
+    "designerId": "application"
+}
