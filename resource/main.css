@@ -4,7 +4,7 @@
 .tab-panel-menu{
     color:white;
     font-size:10px;
-    margin-top:-20%;
+    margin-top:-25%;
 }
 .title-container{
     font-size: 17px;
@@ -82,36 +82,4 @@
     margin-top:10px;
     color:white;
     font-size:12px;
-}
-.x-fa:hover{
-    background: rgba(255,255,255,1);
-    color: #64bb5d;
-}
-.pay-title{
-    font-size:17px;
-    color:blue;
-}
-.pay-body{
-    width:auto;
-    margin-top:5px;
-    /*     border:1px solid red; */
-}
-.pay-table{
-    width:100%;
-    /*     border: 1px solid black; */
-}
-tr{
-    margin-top:2px;
-}
-.x-innerhtml{
-    width:100%;
-}
-.menu-bar-button{
-    /*     margin-top:5%; */
-}
-.x-no-row-lines > .x-listitem{
-    border-bottom: 1px solid #b8cfff !important;
-}
-.fa-long-arrow-left{
-    font-weight:10;
 }

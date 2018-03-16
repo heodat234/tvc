@@ -8,9 +8,14 @@
     "userConfig": {
         "centered": null,
         "controller": null,
+        "data": [
+            "{",
+            "    title:'Ưu đãi giảm giá 20% tại Le Mendendline'",
+            "}"
+        ],
         "defaults": null,
-        "designer|userAlias": "newsdetail",
-        "designer|userClassName": "NewsDetail",
+        "designer|userAlias": "notification",
+        "designer|userClassName": "Notification",
         "height": "100%",
         "layout": "vbox",
         "padding": "",
@@ -28,12 +33,13 @@
         "style": "string",
         "width": "auto",
         "layout": "string",
-        "height": "auto"
+        "height": "auto",
+        "data": "object"
     },
-    "name": "News1",
-    "designerId": "942e6887-0fb6-4fc4-ac04-72e168c8734e",
-    "viewControllerInstanceId": "a5416020-e356-4773-8f72-7327226d5b42",
-    "viewModelInstanceId": "f8250df0-9aeb-4de8-af89-0b8710e46b00",
+    "name": "Menu1",
+    "designerId": "5422f708-2504-4e6c-8002-bade569c85e3",
+    "viewControllerInstanceId": "cbae587d-7947-4b52-af96-55bf86973333",
+    "viewModelInstanceId": "12584e16-9745-4e1c-bbeb-1950b44f676e",
     "cn": [
         {
             "type": "Ext.Container",
@@ -62,7 +68,7 @@
                 "minHeight": "auto"
             },
             "name": "MyContainer7",
-            "designerId": "2ca05158-8c94-4fca-b499-6c691c88b0ba",
+            "designerId": "883a7fe1-0a11-41a9-8180-a1a68796874c",
             "cn": [
                 {
                     "type": "Ext.Container",
@@ -72,13 +78,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout": "fit"
+                        "layout": "fit",
+                        "width": "33%"
                     },
                     "configAlternates": {
-                        "layout": "string"
+                        "layout": "string",
+                        "width": "auto"
                     },
                     "name": "MyContainer20",
-                    "designerId": "001058f8-e04d-4615-9223-08f607624398",
+                    "designerId": "db072a6a-4d0b-4399-b521-6dc9474f34d3",
                     "cn": [
                         {
                             "type": "Ext.Container",
@@ -88,17 +96,13 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "height": "100%",
-                                "layout": "center",
-                                "width": "50%"
+                                "layout": "center"
                             },
                             "configAlternates": {
-                                "height": "auto",
-                                "layout": "string",
-                                "width": "auto"
+                                "layout": "string"
                             },
-                            "name": "MyContainer37",
-                            "designerId": "06a53bb9-a4e6-45cc-b870-210e1e1e7d92",
+                            "name": "MyContainer1",
+                            "designerId": "76604829-465b-4f05-a988-c99fc5bc9e16",
                             "cn": [
                                 {
                                     "type": "Ext.Button",
@@ -109,12 +113,13 @@
                                     "codeClass": null,
                                     "userConfig": {
                                         "designer|uiInterfaceName": "user-menu-button",
-                                        "height": 30,
+                                        "height": 40,
                                         "icon": "true",
                                         "iconCls": "x-fa fa-long-arrow-left",
+                                        "style": "border-radius: 50%;",
                                         "text": "",
                                         "ui": "user-menu-button",
-                                        "width": 30
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "designer|uiInterfaceName": "string",
@@ -127,8 +132,8 @@
                                         "width": "auto",
                                         "margin": "auto"
                                     },
-                                    "name": "MyButton1",
-                                    "designerId": "83d6f29a-4153-4149-88e3-64601f6e9e34"
+                                    "name": "MyButton",
+                                    "designerId": "acfe6b84-1110-40b1-9e39-6fbf21102b0f"
                                 }
                             ]
                         },
@@ -139,8 +144,8 @@
                                 "type": "array"
                             },
                             "codeClass": null,
-                            "name": "MyContainer38",
-                            "designerId": "cdf5b27a-f6e1-4143-857e-515b60fc48c0"
+                            "name": "MyContainer2",
+                            "designerId": "6d0844ba-439f-4cac-8de1-732a28bcf544"
                         }
                     ]
                 },
@@ -158,7 +163,7 @@
                         "style": [
                             "background: url(images/logo.png);background-repeat: no-repeat;background-position: center;background-size:cover;background-size: 80%"
                         ],
-                        "width": 450
+                        "width": "33%"
                     },
                     "configAlternates": {
                         "style": "object",
@@ -168,7 +173,7 @@
                         "width": "auto"
                     },
                     "name": "MyContainer21",
-                    "designerId": "ad356b43-d96d-4d81-bfe5-35ff9365a9eb"
+                    "designerId": "05c0786f-0990-4a1f-9014-4e22646fa40a"
                 },
                 {
                     "type": "Ext.Container",
@@ -179,7 +184,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "layout": "hbox",
-                        "width": "50%"
+                        "width": "33%"
                     },
                     "configAlternates": {
                         "height": "auto",
@@ -187,7 +192,7 @@
                         "width": "auto"
                     },
                     "name": "MyContainer23",
-                    "designerId": "35d5684f-5698-44fe-b0ed-4381ca42db6c",
+                    "designerId": "6b1e3be1-524e-4ba1-9748-b1d1d2277413",
                     "cn": [
                         {
                             "type": "Ext.Container",
@@ -202,8 +207,8 @@
                             "configAlternates": {
                                 "width": "auto"
                             },
-                            "name": "MyContainer33",
-                            "designerId": "21839362-391c-4831-9bad-b1ef1d576fba"
+                            "name": "MyContainer3",
+                            "designerId": "0e813ce5-1a9f-45a0-b468-f677c86647f3"
                         },
                         {
                             "type": "Ext.Container",
@@ -220,8 +225,8 @@
                                 "layout": "string",
                                 "width": "auto"
                             },
-                            "name": "MyContainer39",
-                            "designerId": "cef6070d-25ea-4bcd-a23c-c5fd0f500459",
+                            "name": "MyContainer4",
+                            "designerId": "001a869e-7290-4eb2-95f7-95c46ff359f2",
                             "cn": [
                                 {
                                     "type": "Ext.Button",
@@ -251,7 +256,7 @@
                                         "width": "auto"
                                     },
                                     "name": "MyButton8",
-                                    "designerId": "534efb7a-ea4d-4b10-8af6-5dd7cfcd5fc7"
+                                    "designerId": "da184672-25a8-4523-8e05-39a255694552"
                                 }
                             ]
                         }
@@ -271,12 +276,11 @@
                 "layout": "card"
             },
             "configAlternates": {
-                "activeItem": "number",
                 "height": "auto",
                 "layout": "string"
             },
             "name": "MyContainer",
-            "designerId": "afbe08e0-bbef-4dd6-b4f7-cbd3caf69414",
+            "designerId": "530b4189-c359-4748-b6a8-cee734f1e31b",
             "cn": [
                 {
                     "type": "Ext.Container",
@@ -285,14 +289,8 @@
                         "type": "array"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "scrollable": "vertical"
-                    },
-                    "configAlternates": {
-                        "scrollable": "auto"
-                    },
-                    "name": "MyContainer41",
-                    "designerId": "caa59159-be7b-41e1-8d49-213743c557ae",
+                    "name": "MyContainer28",
+                    "designerId": "794a2086-3b07-43a4-a5d1-76be335f955e",
                     "cn": [
                         {
                             "type": "Ext.Container",
@@ -303,14 +301,16 @@
                             "codeClass": null,
                             "userConfig": {
                                 "height": "8%",
-                                "layout": "center"
+                                "layout": "center",
+                                "style": "border-bottom:1px solid #b8cfff;"
                             },
                             "configAlternates": {
                                 "height": "auto",
-                                "layout": "string"
+                                "layout": "string",
+                                "style": "string"
                             },
                             "name": "MyContainer29",
-                            "designerId": "dd91f8cb-e2eb-4e09-8098-78bb91c036bf",
+                            "designerId": "2c73bbd4-6ac1-468a-8f37-77dfaed8f619",
                             "cn": [
                                 {
                                     "type": "Ext.Label",
@@ -325,7 +325,7 @@
                                         ],
                                         "docked": null,
                                         "height": "10%",
-                                        "html": "Tin tức 1",
+                                        "html": "Thông báo",
                                         "margin": ""
                                     },
                                     "configAlternates": {
@@ -336,291 +336,80 @@
                                         "margin": "auto"
                                     },
                                     "name": "MyLabel",
-                                    "designerId": "ba022895-cab2-4ea6-93e8-7ddc302ee623"
-                                },
-                                {
-                                    "type": "Ext.Container",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "docked": "top"
-                                    },
-                                    "configAlternates": {
-                                        "docked": "string"
-                                    },
-                                    "name": "MyContainer31",
-                                    "designerId": "aa4a8740-e701-444d-861f-751bcd90b34b"
+                                    "designerId": "0527e937-0f53-4478-b364-6645f7c9e9d5"
                                 }
                             ]
                         },
                         {
-                            "type": "Ext.Container",
+                            "type": "Ext.dataview.List",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "height": "42%",
-                                "style": "background-color:pink;"
+                                "data": [
+                                    "[",
+                                    "    {",
+                                    "        title:'Giới thiệu dự án Tille Residents',",
+                                    "        time:'2 giờ trước',",
+                                    "        icon:'fa fa-circle',",
+                                    "        unread:'unread-title'",
+                                    "    },",
+                                    "    {",
+                                    "        title:'Thông báo thanh toán đợt 9',",
+                                    "        time:'10 giờ trước',",
+                                    "        icon:''",
+                                    "    },",
+                                    "    {",
+                                    "        title:'Thông báo mở bán block D',",
+                                    "        time:'15 giờ trước',",
+                                    "        icon:''",
+                                    "    },",
+                                    "    {",
+                                    "        title:'Ưu đãi giảm giá 20 tại Le Residents',",
+                                    "        time:'15 giờ trước',",
+                                    "        icon:'fa fa-circle',",
+                                    "        unread:'unread-title'",
+                                    "    },",
+                                    "    {",
+                                    "        title:'Đăng ký tham gia sự kiện thành công',",
+                                    "        time:'2 tuần trước',",
+                                    "        icon:''",
+                                    "    },",
+                                    "]"
+                                ],
+                                "layout": "vbox",
+                                "margin": "0 5 0 5"
                             },
                             "configAlternates": {
-                                "height": "auto",
-                                "style": "string"
+                                "data": "array",
+                                "layout": "string",
+                                "margin": "auto"
                             },
-                            "name": "MyContainer32",
-                            "designerId": "55f5f45d-2945-4f57-a07a-660e0e49adfb",
+                            "name": "MyList",
+                            "designerId": "def95692-def8-4082-b339-85ce5ef87b3b",
                             "cn": [
                                 {
-                                    "type": "Ext.carousel.Carousel",
+                                    "type": "Ext.XTemplate",
                                     "reference": {
-                                        "name": "items",
-                                        "type": "array"
+                                        "name": "itemTpl",
+                                        "type": "object"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "height": "100%"
+                                        "designer|displayName": "itemTpl",
+                                        "implHandler": [
+                                            "<div class='notif-title {unread}'><i class='notif-icon-list {icon}'></i> {title}</div>",
+                                            "<div class='notif-time'>{time}</div>"
+                                        ]
                                     },
                                     "configAlternates": {
-                                        "height": "auto"
+                                        "designer|displayName": "string",
+                                        "implHandler": "code"
                                     },
-                                    "name": "MyCarousel1",
-                                    "designerId": "f9f0ed0e-96e7-468e-a933-b5e6d0fd9c44",
-                                    "cn": [
-                                        {
-                                            "type": "Ext.Img",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "height": "100%",
-                                                "src": "https://i2.wp.com/betterafter50.com/wp-content/uploads/2013/04/Running-For-My-Life.jpg",
-                                                "style": "background-size:cover;",
-                                                "width": "100%"
-                                            },
-                                            "configAlternates": {
-                                                "height": "auto",
-                                                "src": "uri",
-                                                "style": "string",
-                                                "width": "auto"
-                                            },
-                                            "name": "MyImg1",
-                                            "designerId": "33c5cea2-6138-44e1-a75e-29be79845908"
-                                        },
-                                        {
-                                            "type": "Ext.Img",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "height": "100%",
-                                                "src": "https://i.ytimg.com/vi/-PsSfuAm-ws/maxresdefault.jpg",
-                                                "style": "background-size:cover;",
-                                                "width": "100%"
-                                            },
-                                            "configAlternates": {
-                                                "height": "auto",
-                                                "src": "uri",
-                                                "style": "string",
-                                                "width": "auto"
-                                            },
-                                            "name": "MyImg2",
-                                            "designerId": "444772f3-8631-44fe-85e6-0c26e4b62961"
-                                        },
-                                        {
-                                            "type": "Ext.Img",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "height": "100%",
-                                                "src": "http://2.bp.blogspot.com/_0enrTo1IEnQ/S97l9i73r7I/AAAAAAAAAmM/5Qfwk6xbAOY/S1600-R/I.jpg",
-                                                "style": "background-size:cover;",
-                                                "width": "100%"
-                                            },
-                                            "configAlternates": {
-                                                "height": "auto",
-                                                "src": "uri",
-                                                "style": "string",
-                                                "width": "auto"
-                                            },
-                                            "name": "MyImg3",
-                                            "designerId": "71cbc69c-7afc-4ebf-9cac-fecbb62ac097"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "Ext.Container",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "height": "50%"
-                            },
-                            "configAlternates": {
-                                "height": "auto",
-                                "style": "string"
-                            },
-                            "name": "MyContainer34",
-                            "designerId": "113d2000-dd5f-433c-ab42-2d4aca581090",
-                            "cn": [
-                                {
-                                    "type": "Ext.Container",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "height": "12%",
-                                        "layout": "fit",
-                                        "margin": 5
-                                    },
-                                    "configAlternates": {
-                                        "height": "auto",
-                                        "layout": "string",
-                                        "margin": "auto",
-                                        "style": "string"
-                                    },
-                                    "name": "MyContainer35",
-                                    "designerId": "ab86871d-8d01-4b8f-a8d5-d53be34a200e",
-                                    "cn": [
-                                        {
-                                            "type": "Ext.Label",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "cls": [
-                                                    "title-news"
-                                                ],
-                                                "docked": "top",
-                                                "html": "tin tức 3",
-                                                "margin": "0 5 "
-                                            },
-                                            "configAlternates": {
-                                                "cls": "typedarray",
-                                                "html": "string",
-                                                "docked": "string",
-                                                "margin": "auto"
-                                            },
-                                            "name": "MyLabel8",
-                                            "designerId": "6ca6bb44-3c2b-4173-894e-50b8107e622a"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Ext.Container",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "height": "10%",
-                                        "layout": "fit",
-                                        "margin": 5
-                                    },
-                                    "configAlternates": {
-                                        "height": "auto",
-                                        "layout": "string",
-                                        "margin": "auto",
-                                        "style": "string"
-                                    },
-                                    "name": "MyContainer43",
-                                    "designerId": "9a40392e-531f-49b4-b84c-ef79a5eaeb1b",
-                                    "cn": [
-                                        {
-                                            "type": "Ext.Label",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "cls": [
-                                                    "detail-time-info"
-                                                ],
-                                                "docked": "bottom",
-                                                "html": "Đăng bởi a | 1-1-2018",
-                                                "margin": "0 5",
-                                                "style": "margin-top: 0;"
-                                            },
-                                            "configAlternates": {
-                                                "cls": "typedarray",
-                                                "html": "string",
-                                                "docked": "string",
-                                                "margin": "auto",
-                                                "style": "string"
-                                            },
-                                            "name": "MyLabel10",
-                                            "designerId": "5911a534-47c5-4c12-94d6-e537eb55ca7b"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Ext.Container",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "height": "",
-                                        "layout": "fit",
-                                        "margin": 5
-                                    },
-                                    "configAlternates": {
-                                        "height": "auto",
-                                        "layout": "string",
-                                        "margin": "auto",
-                                        "style": "string"
-                                    },
-                                    "name": "MyContainer44",
-                                    "designerId": "47123c12-368f-4f89-aaa3-9cbbd3ce0eeb",
-                                    "cn": [
-                                        {
-                                            "type": "Ext.Label",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "cls": [
-                                                    "news-content"
-                                                ],
-                                                "docked": "bottom",
-                                                "html": "content of news content of newscontent of newscontent of newscontent of newscontent of newscontent of newscontent content of newscontent of newscontent of newscontent of newscontent of newscontent of newscontent of newscontent of newscontent of newscontent of necontent of newscontent of newscontent of newscontent of newscontent of newscontent of newscontent of newswsof news",
-                                                "margin": "0 5",
-                                                "style": "margin-top: 0;"
-                                            },
-                                            "configAlternates": {
-                                                "cls": "typedarray",
-                                                "html": "string",
-                                                "docked": "string",
-                                                "margin": "auto",
-                                                "style": "string"
-                                            },
-                                            "name": "MyLabel10",
-                                            "designerId": "4b1a6d1a-df42-4327-a1dd-41ba0b551e1f"
-                                        }
-                                    ]
+                                    "name": "itemTpl",
+                                    "designerId": "7cd94fb3-32b6-433b-9246-eb045be7fd87"
                                 }
                             ]
                         }
@@ -646,7 +435,7 @@
                 "style": "string"
             },
             "name": "MyContainer5",
-            "designerId": "dd83ce9f-79f4-4b50-8a11-9d8060f3d9ee",
+            "designerId": "2dc13fcd-972c-4028-af9c-0ce1012c695b",
             "cn": [
                 {
                     "type": "Ext.Container",
@@ -667,7 +456,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer25",
-                    "designerId": "0c009124-410a-4274-bf6a-53d350597178",
+                    "designerId": "3db9e041-bd32-4ad1-a6e5-a82d7285559a",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -678,13 +467,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|uiInterfaceName": "tab-panel-menu",
-                                "height": 50,
+                                "height": 40,
                                 "icon": "true",
                                 "iconCls": "x-fa fa-home",
                                 "style": "border-radius: 50%;",
                                 "text": "",
                                 "ui": "tab-panel-menu",
-                                "width": 50
+                                "width": 40
                             },
                             "configAlternates": {
                                 "designer|uiInterfaceName": "string",
@@ -697,7 +486,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "73e97974-519c-40af-954b-0630314d8a97"
+                            "designerId": "6f080d1c-cf17-4094-9a0f-7120ad5f9694"
                         },
                         {
                             "type": "Ext.Label",
@@ -717,7 +506,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "92409008-e921-456f-8db0-d7151d6f2444"
+                            "designerId": "f74110d7-645c-4d5c-a147-e872c0bcd99d"
                         }
                     ]
                 },
@@ -740,7 +529,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer",
-                    "designerId": "33f609ff-afad-46c5-a3e6-bc13aa522daf",
+                    "designerId": "3be6a9ae-5609-4bcf-bcf7-595b56ef2d05",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -751,13 +540,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|uiInterfaceName": "tab-panel-menu",
-                                "height": 50,
+                                "height": 40,
                                 "icon": "true",
                                 "iconCls": "x-fa fa-file",
                                 "style": "border-radius: 50%;",
                                 "text": "",
                                 "ui": "tab-panel-menu",
-                                "width": 50
+                                "width": 40
                             },
                             "configAlternates": {
                                 "designer|uiInterfaceName": "string",
@@ -770,7 +559,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "595721da-6cfe-4156-a682-af9efc509499"
+                            "designerId": "3e863eb3-163d-4412-969d-0e00de35d1cf"
                         },
                         {
                             "type": "Ext.Label",
@@ -790,7 +579,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "6220c960-e7bb-45eb-8df6-d1964f4cb90d"
+                            "designerId": "2dc0f9e1-8567-496c-83e5-c11446e9a185"
                         }
                     ]
                 },
@@ -813,7 +602,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer6",
-                    "designerId": "ccf1d78e-7d15-495c-b635-b28e66ffd3aa",
+                    "designerId": "1c3aac71-4eef-462c-9d55-83994df0a7e5",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -824,13 +613,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|uiInterfaceName": "tab-panel-menu",
-                                "height": 50,
+                                "height": 40,
                                 "icon": "true",
                                 "iconCls": "x-fa fa-star",
                                 "style": "border-radius: 50%;",
                                 "text": "",
                                 "ui": "tab-panel-menu",
-                                "width": 50
+                                "width": 40
                             },
                             "configAlternates": {
                                 "designer|uiInterfaceName": "string",
@@ -843,7 +632,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "df9eac60-0318-45d0-b482-f8af6e0f74b9"
+                            "designerId": "52d58522-04af-4141-bb18-6fe01830c279"
                         },
                         {
                             "type": "Ext.Label",
@@ -863,7 +652,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "5d414b48-cb20-44b3-8899-0da02831a6d0"
+                            "designerId": "5f401cc3-760e-4d71-ade9-d56a613eb70e"
                         }
                     ]
                 },
@@ -886,7 +675,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer26",
-                    "designerId": "7acb2437-9898-43ac-a95b-9f4a8ed4249b",
+                    "designerId": "207a9ff5-17c5-4941-b64c-19470c425778",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -897,13 +686,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|uiInterfaceName": "tab-panel-menu",
-                                "height": 50,
+                                "height": 40,
                                 "icon": "true",
                                 "iconCls": "x-fa fa-gift",
                                 "style": "border-radius: 50%;",
                                 "text": "",
                                 "ui": "tab-panel-menu",
-                                "width": 50
+                                "width": 40
                             },
                             "configAlternates": {
                                 "designer|uiInterfaceName": "string",
@@ -916,7 +705,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "de6d829b-0a5c-4f7f-92a1-cbf567043b5c"
+                            "designerId": "e1c33ec5-ac4d-4802-97bd-685511a82e1b"
                         },
                         {
                             "type": "Ext.Label",
@@ -936,7 +725,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "6f4e99a2-da90-4220-a8cc-6909d0132dff"
+                            "designerId": "005fb6d6-6ce7-4bb6-903e-2203fc1b65e8"
                         }
                     ]
                 },
@@ -959,7 +748,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer27",
-                    "designerId": "44fae8de-01ec-496e-89d0-ee822eba3fd8",
+                    "designerId": "a3092c66-ed50-4545-b58f-6a661eec81ae",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -970,13 +759,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|uiInterfaceName": "tab-panel-menu",
-                                "height": 50,
+                                "height": 40,
                                 "icon": "true",
                                 "iconCls": "x-fa fa-credit-card",
                                 "style": "border-radius: 50%;",
                                 "text": "",
                                 "ui": "tab-panel-menu",
-                                "width": 50
+                                "width": 40
                             },
                             "configAlternates": {
                                 "designer|uiInterfaceName": "string",
@@ -989,7 +778,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "36686a02-233f-41bd-902a-04245378eda2"
+                            "designerId": "48d96774-2282-4e35-adaf-04a70605d05b"
                         },
                         {
                             "type": "Ext.Label",
@@ -1009,7 +798,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "5b85a2a9-121e-4950-a7df-79c26693e700"
+                            "designerId": "a4a560af-5bf9-40e8-8815-33e8e1c68780"
                         }
                     ]
                 }
