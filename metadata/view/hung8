@@ -12,7 +12,7 @@
         "html": "",
         "layout": "fit",
         "masked": false,
-        "style": "'background-image:url(\"Nam 1.png\"); background-size:cover;"
+        "style": "'background-image:url(\"images/Nam 1.png\"); background-size:cover;"
     },
     "configAlternates": {
         "designer|userAlias": "string",
@@ -378,7 +378,7 @@
                 "docked": "top",
                 "height": 100,
                 "margin": "70 70 0 70",
-                "style": ""
+                "style": "background: url(images/logo.png);background-repeat: no-repeat;background-position: center;background-size:cover;background-size: 80%"
             },
             "configAlternates": {
                 "docked": "string",
@@ -387,29 +387,7 @@
                 "style": "string"
             },
             "name": "MyContainer6",
-            "designerId": "70b52600-7df9-4211-98da-ad1960036af6",
-            "cn": [
-                {
-                    "type": "Ext.Img",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "height": 201,
-                        "src": "logo.png",
-                        "style": "background-size:cover"
-                    },
-                    "configAlternates": {
-                        "height": "auto",
-                        "src": "uri",
-                        "style": "string"
-                    },
-                    "name": "MyImg",
-                    "designerId": "91c6b090-3406-47f1-80de-5b867f870b71"
-                }
-            ]
+            "designerId": "70b52600-7df9-4211-98da-ad1960036af6"
         }
     ]
 }

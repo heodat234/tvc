@@ -12,7 +12,7 @@
         "html": "",
         "layout": "fit",
         "masked": false,
-        "style": "'background-image:url(\"Nam 1.png\"); background-size:cover;"
+        "style": "'background-image:url(\"images/Nam 1.png\"); background-size:cover;"
     },
     "configAlternates": {
         "designer|userAlias": "string",
@@ -56,37 +56,17 @@
                     "userConfig": {
                         "docked": "top",
                         "height": 100,
-                        "margin": "70 70 0 70"
+                        "margin": "70 70 0 70",
+                        "style": "background: url(images/logo.png);background-repeat: no-repeat;background-position: center;background-size:cover;background-size: 80%"
                     },
                     "configAlternates": {
                         "docked": "string",
                         "height": "auto",
-                        "margin": "auto"
+                        "margin": "auto",
+                        "style": "string"
                     },
                     "name": "MyContainer7",
-                    "designerId": "403a8f87-8ba3-433a-82cb-1bd2a97861e6",
-                    "cn": [
-                        {
-                            "type": "Ext.Img",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "height": 201,
-                                "src": "logo.png",
-                                "style": "background-size:cover;"
-                            },
-                            "configAlternates": {
-                                "height": "auto",
-                                "src": "uri",
-                                "style": "string"
-                            },
-                            "name": "MyImg1",
-                            "designerId": "80f173bc-0d03-4d44-bacd-4f024437b2bd"
-                        }
-                    ]
+                    "designerId": "403a8f87-8ba3-433a-82cb-1bd2a97861e6"
                 },
                 {
                     "type": "Ext.Container",

@@ -9,7 +9,6 @@
         "name": "LoginApp",
         "views": [
             "LoginPanel",
-            "MainPanel",
             "ForgotPassword",
             "CreateAccount",
             "Menu",
@@ -21,8 +20,7 @@
             "Gift",
             "GiftDetail",
             "Payment",
-            "PaymentDetail",
-            "Test"
+            "PaymentDetail"
         ]
     },
     "configAlternates": {

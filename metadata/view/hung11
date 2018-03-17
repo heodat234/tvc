@@ -12,7 +12,7 @@
         "html": "",
         "layout": "vbox",
         "masked": false,
-        "style": "'background-image:url(\"Nam 1.png\"); background-size:cover;"
+        "style": "'background-image:url(\"images/Nam 1.png\"); background-size:cover;"
     },
     "configAlternates": {
         "designer|userAlias": "string",
