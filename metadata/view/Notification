@@ -552,6 +552,26 @@
                                     },
                                     "name": "itemTpl",
                                     "designerId": "7cd94fb3-32b6-433b-9246-eb045be7fd87"
+                                },
+                                {
+                                    "type": "Ext.dataview.plugin.ListPaging",
+                                    "reference": {
+                                        "name": "plugins",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "name": "MyListPagingPlugin",
+                                    "designerId": "319a85d5-e8bc-444c-aaa1-cb055993b76a"
+                                },
+                                {
+                                    "type": "Ext.dataview.pullrefresh.PullRefresh",
+                                    "reference": {
+                                        "name": "plugins",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "name": "MyPullRefreshPlugin",
+                                    "designerId": "43a7a585-28e1-42c9-bc8c-7630e01aa277"
                                 }
                             ]
                         }

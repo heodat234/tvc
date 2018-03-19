@@ -1,0 +1,149 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "taskitem",
+        "designer|userClassName": "TaskItemViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "6f969963-ae94-4ce1-8cae-becf84c90b4b",
+    "cn": [
+        {
+            "type": "Ext.app.bind.Formula",
+            "reference": {
+                "name": "formulas",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "titleType"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyFormula",
+            "designerId": "e4011b7c-a98e-4643-aca0-7855332a11c7",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "get"
+                        ],
+                        "fn": "get",
+                        "implHandler": [
+                            "return get('title');"
+                        ]
+                    },
+                    "configAlternates": {
+                        "designer|params": "typedarray",
+                        "fn": "string",
+                        "implHandler": "code"
+                    },
+                    "name": "get",
+                    "designerId": "c6fa4ea0-4f5c-4360-a588-2e79af23638f"
+                }
+            ]
+        },
+        {
+            "type": "Ext.app.bind.Formula",
+            "reference": {
+                "name": "formulas",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "recType"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyFormula1",
+            "designerId": "b04901ae-f2c8-4219-92af-b3844c269ea4",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "get"
+                        ],
+                        "fn": "get",
+                        "implHandler": [
+                            "var t = get('recordtype');",
+                            "if (t == 'A') return 'x-fa fa-newspaper-o';",
+                            "if (t == 'B') return 'x-fa fa-bullhorn';",
+                            "if (t == 'I') return 'x-fa fa-comment';",
+                            "return '';"
+                        ]
+                    },
+                    "configAlternates": {
+                        "designer|params": "typedarray",
+                        "fn": "string",
+                        "implHandler": "code"
+                    },
+                    "name": "get",
+                    "designerId": "24bff1bf-a7b9-4b65-bda6-f7a39c85767b"
+                }
+            ]
+        },
+        {
+            "type": "Ext.app.bind.Formula",
+            "reference": {
+                "name": "formulas",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "shortDesc"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyFormula2",
+            "designerId": "64638a78-4b0e-43d8-9b10-7a586b371877",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "get"
+                        ],
+                        "fn": "get",
+                        "implHandler": [
+                            "return Ext.util.Format.nl2br(get('description'));"
+                        ]
+                    },
+                    "configAlternates": {
+                        "designer|params": "typedarray",
+                        "fn": "string",
+                        "implHandler": "code"
+                    },
+                    "name": "get",
+                    "designerId": "3ded37ff-1652-406c-b575-0e1e8dc4feb9"
+                }
+            ]
+        }
+    ]
+}

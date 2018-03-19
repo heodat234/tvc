@@ -1,0 +1,429 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "xacnhan_tk",
+        "designer|userClassName": "xacnhan_tk",
+        "displayed": false,
+        "html": "",
+        "layout": "vbox",
+        "masked": false,
+        "style": "'background-image:url(\"images/Nam 1.png\"); background-size:cover;"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "displayed": "boolean",
+        "height": "auto",
+        "html": "string",
+        "layout": "string",
+        "style": "string",
+        "masked": "boolean"
+    },
+    "name": "hung9",
+    "designerId": "429cb3f1-5c6a-4d37-9dbd-b432b84ab0a1",
+    "viewControllerInstanceId": "c68771d8-b4dc-4b19-952b-39a7ac767c39",
+    "viewModelInstanceId": "c96450ef-db1b-4503-8a4f-1a991cd2db54",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "hideOnMaskTap": true,
+                "html": "",
+                "layout": "center",
+                "margin": "40% 50% 0 50%",
+                "width": "",
+                "zIndex": 10
+            },
+            "configAlternates": {
+                "docked": "string",
+                "hideOnMaskTap": "boolean",
+                "html": "string",
+                "layout": "string",
+                "margin": "auto",
+                "width": "auto",
+                "zIndex": "number"
+            },
+            "name": "MyContainer3",
+            "designerId": "6e0f479c-51b8-4a71-bb10-74d366c88470",
+            "cn": [
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "html": "<div class=\"slide-check\"></div>",
+                        "zIndex": 10
+                    },
+                    "configAlternates": {
+                        "docked": "string",
+                        "html": "string",
+                        "zIndex": "number"
+                    },
+                    "name": "MyLabel3",
+                    "designerId": "571afad4-116a-489f-b533-2a11e6bcb640"
+                },
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "right",
+                        "html": "<div class=\"slide\"></div>"
+                    },
+                    "configAlternates": {
+                        "html": "string",
+                        "docked": "string"
+                    },
+                    "name": "MyLabel4",
+                    "designerId": "085ed535-8566-42d0-833c-15589eaf8f21"
+                },
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": null,
+                        "html": "<div class=\"slide-check\"></div>"
+                    },
+                    "configAlternates": {
+                        "html": "string",
+                        "docked": "string"
+                    },
+                    "name": "MyLabel5",
+                    "designerId": "732a9524-8b3f-47c0-b8d0-13231b29e345"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "height": "",
+                "html": "<div class=\"slide-duong\"></div>",
+                "margin": "-18 50 0 50",
+                "zIndex": null
+            },
+            "configAlternates": {
+                "docked": "string",
+                "height": "auto",
+                "html": "string",
+                "margin": "auto",
+                "zIndex": "number"
+            },
+            "name": "MyContainer4",
+            "designerId": "7375bdbb-e4c8-4cfe-8d64-e0a0b541a8d7"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "center"
+            },
+            "configAlternates": {
+                "layout": "string",
+                "width": "auto"
+            },
+            "name": "MyContainer2",
+            "designerId": "7280b655-5b58-4c80-8f2a-ca11db45f53d",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "autoSize": false,
+                        "docked": "top",
+                        "height": 106,
+                        "layout": "center",
+                        "margin": "40% 50% 0 50%",
+                        "style": "tex-align:center;",
+                        "width": ""
+                    },
+                    "configAlternates": {
+                        "docked": "string",
+                        "height": "auto",
+                        "layout": "string",
+                        "margin": "auto",
+                        "autoSize": "boolean",
+                        "style": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyContainer",
+                    "designerId": "b4312952-1279-45f8-a96c-a5f107838adc",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top",
+                                "height": 38,
+                                "html": "<h4 class=\"title-xn\">XÁC NHẬN TÀI KHOẢN</h4><p class=\"content-tb\">Số điện thoại bạn đã nhập không tồn tại trong hệ thống, vui lòng thử lại hoặc liên hệ với chúng tôi </p>  ",
+                                "style": "text-align:center;"
+                            },
+                            "configAlternates": {
+                                "docked": "string",
+                                "html": "string",
+                                "style": "string",
+                                "height": "auto"
+                            },
+                            "name": "MyLabel1",
+                            "designerId": "6824859f-2a52-4dd5-8e33-2ffb4f6cbffb"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top",
+                        "layout": "center",
+                        "margin": "20%",
+                        "scrollable": false
+                    },
+                    "configAlternates": {
+                        "docked": "string",
+                        "layout": "string",
+                        "scrollable": "auto",
+                        "margin": "auto"
+                    },
+                    "name": "MyContainer1",
+                    "designerId": "d46bf765-6533-4a77-98b5-f3c629812c53",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "btn"
+                                ],
+                                "designer|uiInterfaceName": "dangnhap",
+                                "docked": null,
+                                "height": 30,
+                                "margin": "",
+                                "style": "border-radius:20px;",
+                                "text": "Trở lại",
+                                "ui": "dangnhap",
+                                "width": 140
+                            },
+                            "configAlternates": {
+                                "margin": "auto",
+                                "text": "string",
+                                "designer|uiInterfaceName": "string",
+                                "ui": "string",
+                                "style": "string",
+                                "width": "auto",
+                                "height": "auto",
+                                "docked": "string",
+                                "id": "string",
+                                "cls": "typedarray",
+                                "userCls": "typedarray"
+                            },
+                            "name": "MyButton",
+                            "designerId": "0afaf774-9b6d-4f69-a18c-7a08e1d756b2",
+                            "cn": [
+                                {
+                                    "type": "fixedfunction",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|params": [
+                                            "button",
+                                            "pressed"
+                                        ],
+                                        "fn": "toggleHandler",
+                                        "implHandler": [
+                                            "this.up('main').setActiveItem(1);"
+                                        ]
+                                    },
+                                    "configAlternates": {
+                                        "designer|params": "typedarray",
+                                        "fn": "string",
+                                        "implHandler": "code"
+                                    },
+                                    "name": "toggleHandler",
+                                    "designerId": "b3d50850-69c9-4a24-abac-1f5fc9206211"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "bottom",
+                                "margin": "20 70 0 70"
+                            },
+                            "configAlternates": {
+                                "docked": "string",
+                                "margin": "auto"
+                            },
+                            "name": "MyContainer5",
+                            "designerId": "4b3ec475-6246-4949-8234-c5fec0dcc221",
+                            "cn": [
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "defaultListenerScope": true,
+                                        "docked": "left",
+                                        "html": "<a class=\"link\" href=\"\">Đăng ký</a>",
+                                        "itemId": "mylabel1",
+                                        "margin": "",
+                                        "style": "text-align:center;font-size:9px;",
+                                        "width": 67
+                                    },
+                                    "configAlternates": {
+                                        "defaultListenerScope": "boolean",
+                                        "html": "string",
+                                        "itemId": "string",
+                                        "margin": "auto",
+                                        "docked": "string",
+                                        "style": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyLabel7",
+                                    "designerId": "d41129f7-de47-4972-86f3-fb992cccd003",
+                                    "cn": [
+                                        {
+                                            "type": "delegateeventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|targetType": "Ext.Button",
+                                                "fn": "onButtonTap",
+                                                "implHandler": [
+                                                    "alert('Hung dep zai');"
+                                                ],
+                                                "name": "tap"
+                                            },
+                                            "configAlternates": {
+                                                "designer|targetType": "view",
+                                                "fn": "string",
+                                                "implHandler": "code",
+                                                "name": "string"
+                                            },
+                                            "name": "onButtonTap",
+                                            "designerId": "d1485544-067f-4603-be5b-95b85dd6750d"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "defaultListenerScope": true,
+                                        "docked": "right",
+                                        "html": "<a class=\"link\" href=\"\">Liên hệ</a>",
+                                        "itemId": "mylabel2",
+                                        "margin": "",
+                                        "style": "text-align:center;font-size:9px;",
+                                        "width": 67
+                                    },
+                                    "configAlternates": {
+                                        "defaultListenerScope": "boolean",
+                                        "html": "string",
+                                        "itemId": "string",
+                                        "margin": "auto",
+                                        "docked": "string",
+                                        "style": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyLabel10",
+                                    "designerId": "52faaffa-640b-4710-9b0b-2c62d24d6240",
+                                    "cn": [
+                                        {
+                                            "type": "delegateeventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|targetType": "Ext.Button",
+                                                "fn": "onButtonTap",
+                                                "implHandler": [
+                                                    "alert('Hung dep zai');"
+                                                ],
+                                                "name": "tap"
+                                            },
+                                            "configAlternates": {
+                                                "designer|targetType": "view",
+                                                "fn": "string",
+                                                "implHandler": "code",
+                                                "name": "string"
+                                            },
+                                            "name": "onButtonTap",
+                                            "designerId": "86605c61-864b-49f7-97d0-fa0208e31f0c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

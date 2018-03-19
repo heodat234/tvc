@@ -1,0 +1,204 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "taskitem",
+        "designer|userClassName": "TaskItem",
+        "layout": "vbox",
+        "userCls": [
+            "tvc-tsk-item"
+        ]
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string",
+        "border": "boolean",
+        "userCls": "typedarray",
+        "maxHeight": "auto"
+    },
+    "name": "MyContainer12",
+    "designerId": "102c12b0-eded-438c-be7e-c00303cfe385",
+    "viewControllerInstanceId": "b0563bc9-c7ec-4de1-84b1-a44cb874a100",
+    "viewModelInstanceId": "6f969963-ae94-4ce1-8cae-becf84c90b4b",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "hbox"
+            },
+            "configAlternates": {
+                "layout": "string"
+            },
+            "name": "MyContainer6",
+            "designerId": "923c1e20-2655-4a89-868a-266f49cfd806",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 40,
+                        "padding": 5,
+                        "userCls": [
+                            "tvc-tsk-ico {recType}"
+                        ],
+                        "width": 40
+                    },
+                    "configAlternates": {
+                        "width": "auto",
+                        "style": "object",
+                        "userCls": "binding",
+                        "padding": "auto",
+                        "height": "auto"
+                    },
+                    "name": "MyContainer12",
+                    "designerId": "e47afcb8-6fc8-4ee5-8990-9364b9d94e31"
+                },
+                {
+                    "type": "Ext.Component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": [
+                            "{titleType}"
+                        ],
+                        "layout|flex": 1,
+                        "margin": "0 0 10 0",
+                        "userCls": [
+                            "tvc-tsk-title"
+                        ]
+                    },
+                    "configAlternates": {
+                        "html": "binding",
+                        "layout|flex": "number",
+                        "userCls": "typedarray",
+                        "height": "auto",
+                        "margin": "auto"
+                    },
+                    "name": "MyComponent5",
+                    "designerId": "0ad1504d-96c4-44db-9536-7d28f5c4d650"
+                },
+                {
+                    "type": "Ext.Component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 10,
+                        "margin": "11 0",
+                        "userCls": [
+                            "tvc-tsk-status-{read}"
+                        ],
+                        "width": 10
+                    },
+                    "configAlternates": {
+                        "userCls": "binding",
+                        "height": "auto",
+                        "margin": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyComponent7",
+                    "designerId": "83df678d-268f-49f6-9c03-356e37eb0878"
+                }
+            ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "record",
+                    "eOpts"
+                ],
+                "fn": "updateRecord",
+                "implHandler": [
+                    "var me\t=this,",
+                    "    host= Ext.domainHost;",
+                    "",
+                    "if (host === undefined) host = '';",
+                    "me.callParent(arguments);",
+                    "if(record) {",
+                    "    me.getViewModel().setData(record.getData());",
+                    "",
+                    "//     if (record.get('attachCount') > 0 ) {",
+                    "//         FrmFdDocument.getLink({",
+                    "//             linkto: 'WLT',",
+                    "//             referencekey1: record.get('recordid'),",
+                    "//             referencekey2: record.get('linenum')",
+                    "//         },function(resLink) {",
+                    "//             if (resLink && resLink.success) {",
+                    "//                 if(resLink.data.length > 0) {",
+                    "//                     var img = resLink.data[0],",
+                    "//                         url\t= '';",
+                    "",
+                    "//                     me.down('#imgCmt').setHidden(false);",
+                    "//                     url = Ext.isChrome ? '/proxy/' + encodeURIComponent(host+'/frmfddocument/getfile?id=') + img.documentcode : (host+'/frmfddocument/getfile?id=' + img.documentcode);",
+                    "//                     me.down('#imgCmt').setSrc(url);",
+                    "//                 } else {",
+                    "//                     me.down('#imgCmt').setHidden(true);",
+                    "//                 }",
+                    "//             }",
+                    "//         });",
+                    "//     } else me.down('#imgCmt').setHidden(true);",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "updateRecord",
+            "designerId": "9d08319d-838a-4712-80fb-9cda763b0279"
+        },
+        {
+            "type": "Ext.Component",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": [
+                    "{shortDesc}"
+                ],
+                "maxHeight": 120,
+                "padding": "0 0 0 40",
+                "userCls": [
+                    "tvc-tsk-content"
+                ]
+            },
+            "configAlternates": {
+                "userCls": "typedarray",
+                "maxHeight": "auto",
+                "reference": "string",
+                "html": "binding",
+                "padding": "auto"
+            },
+            "name": "MyComponent6",
+            "designerId": "9938d0e9-0d12-448e-b2cb-ce5fd1e6c211"
+        }
+    ]
+}
