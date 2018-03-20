@@ -475,71 +475,51 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "height": "25%",
+                                        "data": [
+                                            "",
+                                            "  {",
+                                            "      id:'abcdff',",
+                                            "      date_buy:'12/2',",
+                                            "      date_da:'20/1',",
+                                            "      date_spa:'15/7'\t",
+                                            "  }",
+                                            ""
+                                        ],
+                                        "height": "20%",
                                         "layout": "vbox",
                                         "margin": 10
                                     },
                                     "configAlternates": {
                                         "height": "auto",
                                         "layout": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "data": "object"
                                     },
                                     "name": "MyContainer58",
                                     "designerId": "fb57081f-460d-47e8-bd6b-eff019d8c213",
                                     "cn": [
                                         {
-                                            "type": "Ext.Container",
+                                            "type": "Ext.XTemplate",
                                             "reference": {
-                                                "name": "items",
-                                                "type": "array"
+                                                "name": "tpl",
+                                                "type": "object"
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "height": "20%"
+                                                "designer|displayName": "tpl",
+                                                "implHandler": [
+                                                    "<div>{id}</div>",
+                                                    "<div>{date_buy}</div>",
+                                                    "<div>{date_da}</div>",
+                                                    "<div>{date_spa}</div>"
+                                                ]
                                             },
                                             "configAlternates": {
-                                                "height": "auto"
+                                                "designer|displayName": "string",
+                                                "implHandler": "code"
                                             },
-                                            "name": "MyContainer1",
-                                            "designerId": "0c251526-e8d7-43e9-b472-31dfa06d7f8d",
-                                            "cn": [
-                                                {
-                                                    "type": "Ext.Label",
-                                                    "reference": {
-                                                        "name": "items",
-                                                        "type": "array"
-                                                    },
-                                                    "codeClass": null,
-                                                    "userConfig": {
-                                                        "html": "Hợp đồng số: EC-667755",
-                                                        "style": "font-size:17px; color: blue;"
-                                                    },
-                                                    "configAlternates": {
-                                                        "html": "string",
-                                                        "style": "string"
-                                                    },
-                                                    "name": "MyLabel1",
-                                                    "designerId": "13b41ffe-ff8b-4d1c-b6e0-fb67b1c51137"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "type": "Ext.Container",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "height": "80%",
-                                                "style": "background-color: pink"
-                                            },
-                                            "configAlternates": {
-                                                "height": "auto",
-                                                "style": "string"
-                                            },
-                                            "name": "MyContainer2",
-                                            "designerId": "a3721870-9aa7-48be-931f-ada6187a0985"
+                                            "name": "tpl",
+                                            "designerId": "27a0a5c0-854f-48b2-b5eb-3cfae8427c42"
                                         }
                                     ]
                                 },
@@ -551,71 +531,49 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "height": "25%",
+                                        "data": [
+                                            "{",
+                                            "    value:'12345',",
+                                            "    value_vat:'78984564',",
+                                            "    pay:'12354654',",
+                                            "    rest:'45789789'",
+                                            "}"
+                                        ],
+                                        "height": "20%",
                                         "layout": "vbox",
                                         "margin": 10
                                     },
                                     "configAlternates": {
                                         "height": "auto",
                                         "layout": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "data": "object"
                                     },
                                     "name": "MyContainer3",
                                     "designerId": "4d68b1ad-98ff-4600-af8c-b6472dde53de",
                                     "cn": [
                                         {
-                                            "type": "Ext.Container",
+                                            "type": "Ext.XTemplate",
                                             "reference": {
-                                                "name": "items",
-                                                "type": "array"
+                                                "name": "tpl",
+                                                "type": "object"
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "height": "20%"
+                                                "designer|displayName": "tpl",
+                                                "implHandler": [
+                                                    "<div>{value}</div>",
+                                                    "<div>{value_vat}</div>",
+                                                    "<div>{pay}</div>",
+                                                    "<div>{rest}</div>"
+                                                ]
                                             },
                                             "configAlternates": {
-                                                "height": "auto"
+                                                "designer|displayName": "string",
+                                                "implHandler": "code"
                                             },
-                                            "name": "MyContainer1",
-                                            "designerId": "33001179-07fb-4bed-a204-ab34df0d1e5a",
-                                            "cn": [
-                                                {
-                                                    "type": "Ext.Label",
-                                                    "reference": {
-                                                        "name": "items",
-                                                        "type": "array"
-                                                    },
-                                                    "codeClass": null,
-                                                    "userConfig": {
-                                                        "html": "div2",
-                                                        "style": "font-size:17px; color: blue;"
-                                                    },
-                                                    "configAlternates": {
-                                                        "html": "string",
-                                                        "style": "string"
-                                                    },
-                                                    "name": "MyLabel1",
-                                                    "designerId": "f8da6daa-8a56-4966-b117-e03fc1508361"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "type": "Ext.Container",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "height": "80%",
-                                                "style": "background-color: pink"
-                                            },
-                                            "configAlternates": {
-                                                "height": "auto",
-                                                "style": "string"
-                                            },
-                                            "name": "MyContainer2",
-                                            "designerId": "5f4958bd-fb47-41ba-8b8e-0d18d8d07116"
+                                            "name": "tpl",
+                                            "designerId": "f5ab0c80-4364-4e2c-a635-f801e55e7a86"
                                         }
                                     ]
                                 },
@@ -640,58 +598,230 @@
                                     "designerId": "f26eb05e-e95a-4899-a855-5bae5e2f3307",
                                     "cn": [
                                         {
-                                            "type": "Ext.Container",
+                                            "type": "Ext.Label",
                                             "reference": {
                                                 "name": "items",
                                                 "type": "array"
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "height": "20%"
+                                                "html": "Đợt thanh toán",
+                                                "style": "font-size:17px; color: blue;"
                                             },
                                             "configAlternates": {
-                                                "height": "auto"
+                                                "html": "string",
+                                                "style": "string"
                                             },
-                                            "name": "MyContainer1",
-                                            "designerId": "7e29d4ee-19de-4f75-b57c-b134ea5f0add",
+                                            "name": "MyLabel3",
+                                            "designerId": "1881f816-973d-4c3a-b073-5707b93090bd"
+                                        },
+                                        {
+                                            "type": "Ext.grid.Grid",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "data": [
+                                                    "[",
+                                                    "    {",
+                                                    "        time:'1',",
+                                                    "        percent:'5',",
+                                                    "        cost:'150000',",
+                                                    "        date:'2018-02-05',",
+                                                    "        pay:'140000',",
+                                                    "        rest:'10000'",
+                                                    "    },",
+                                                    "    {",
+                                                    "        time:'1',",
+                                                    "        percent:'5',",
+                                                    "        cost:'150000',",
+                                                    "        date:'2018-02-05',",
+                                                    "        pay:'140000',",
+                                                    "        rest:'10000'",
+                                                    "    }",
+                                                    "]"
+                                                ],
+                                                "height": "100%",
+                                                "width": "100%"
+                                            },
+                                            "configAlternates": {
+                                                "store": "object",
+                                                "data": "array",
+                                                "height": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyGrid",
+                                            "designerId": "7010ddf8-6a8c-4e3a-af70-69453fa5c95f",
                                             "cn": [
                                                 {
-                                                    "type": "Ext.Label",
+                                                    "type": "Ext.grid.column.Column",
                                                     "reference": {
-                                                        "name": "items",
+                                                        "name": "columns",
                                                         "type": "array"
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
-                                                        "html": "Đợt thanh toán",
-                                                        "style": "font-size:17px; color: blue;"
+                                                        "dataIndex": "time",
+                                                        "docked": null,
+                                                        "height": 30,
+                                                        "name": "time",
+                                                        "padding": 0,
+                                                        "sortable": false,
+                                                        "text": "Đợt",
+                                                        "width": 40
                                                     },
                                                     "configAlternates": {
-                                                        "html": "string",
+                                                        "dataIndex": "datafield",
+                                                        "docked": "string",
+                                                        "height": "auto",
+                                                        "name": "string",
+                                                        "padding": "auto",
+                                                        "sortable": "boolean",
+                                                        "text": "string",
+                                                        "width": "auto"
+                                                    },
+                                                    "name": "MyColumn",
+                                                    "designerId": "8ce72d2f-f093-42be-8e16-c58b0892acad"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Number",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "percent",
+                                                        "docked": null,
+                                                        "height": 30,
+                                                        "name": "per",
+                                                        "text": "Tỷ lệ",
+                                                        "width": 52
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "docked": "string",
+                                                        "height": "auto",
+                                                        "name": "string",
+                                                        "text": "string",
+                                                        "width": "auto"
+                                                    },
+                                                    "name": "MyNumberColumn",
+                                                    "designerId": "585099c3-4a5b-430d-9be7-6f865bdaab3f"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Number",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "cost",
+                                                        "docked": null,
+                                                        "height": 30,
+                                                        "name": "cost",
+                                                        "sortable": false,
+                                                        "style": "padding:0;",
+                                                        "text": "Số tiền",
+                                                        "width": 70
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "docked": "string",
+                                                        "text": "string",
+                                                        "width": "auto",
+                                                        "height": "auto",
+                                                        "name": "string",
+                                                        "sortable": "boolean",
                                                         "style": "string"
                                                     },
-                                                    "name": "MyLabel1",
-                                                    "designerId": "76af1a84-9533-4ba2-8c8a-15955f5694a6"
+                                                    "name": "MyNumberColumn1",
+                                                    "designerId": "01fa4579-c549-49bc-83a9-670715b1b41b"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Date",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "date",
+                                                        "docked": null,
+                                                        "editable": false,
+                                                        "format": "d-m-Y",
+                                                        "height": 30,
+                                                        "text": "Hạn T.toán",
+                                                        "width": 80
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "docked": "string",
+                                                        "editable": "boolean",
+                                                        "format": "string",
+                                                        "height": "auto",
+                                                        "text": "string",
+                                                        "width": "auto"
+                                                    },
+                                                    "name": "MyDateColumn1",
+                                                    "designerId": "d75e00f8-0839-4325-a644-07fd7e20cb7a"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Number",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "pay",
+                                                        "docked": null,
+                                                        "height": 30,
+                                                        "name": "pay",
+                                                        "text": "Đã T.toán",
+                                                        "width": 80
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "docked": "string",
+                                                        "text": "string",
+                                                        "width": "auto",
+                                                        "height": "auto",
+                                                        "name": "string"
+                                                    },
+                                                    "name": "MyNumberColumn2",
+                                                    "designerId": "531f0b44-e628-49bc-801c-4a59a5ccbb14"
+                                                },
+                                                {
+                                                    "type": "Ext.grid.column.Number",
+                                                    "reference": {
+                                                        "name": "columns",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dataIndex": "rest",
+                                                        "docked": null,
+                                                        "height": 30,
+                                                        "name": "rest",
+                                                        "text": "Còn lại",
+                                                        "width": 89
+                                                    },
+                                                    "configAlternates": {
+                                                        "dataIndex": "datafield",
+                                                        "docked": "string",
+                                                        "text": "string",
+                                                        "width": "auto",
+                                                        "height": "auto",
+                                                        "name": "string"
+                                                    },
+                                                    "name": "MyNumberColumn3",
+                                                    "designerId": "9ed5dcd7-dcc3-4e1e-8ef3-0262561ae282"
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "type": "Ext.Container",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "height": "80%",
-                                                "style": "background-color: pink"
-                                            },
-                                            "configAlternates": {
-                                                "height": "auto",
-                                                "style": "string"
-                                            },
-                                            "name": "MyContainer2",
-                                            "designerId": "686b9db8-84f9-4332-98cf-aea8457c97d0"
                                         }
                                     ]
                                 },

@@ -1,0 +1,69 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "{    ",
+            "     title:'sự kiện 1',",
+            "     time:'2/5'",
+            "}"
+        ],
+        "designer|userAlias": "event",
+        "designer|userClassName": "LoginPanelViewModel5"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "data": "object"
+    },
+    "name": "LoginPanelViewModel5",
+    "designerId": "295c68bf-d059-4ab2-89fd-1a084d27f5d9",
+    "cn": [
+        {
+            "type": "Ext.app.bind.Formula",
+            "reference": {
+                "name": "formulas",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "getTitle"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyFormula3",
+            "designerId": "eef80cb5-fdfd-4dff-bded-d0bc48ddc377",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "get"
+                        ],
+                        "fn": "get",
+                        "implHandler": [
+                            "return get('title');"
+                        ]
+                    },
+                    "configAlternates": {
+                        "designer|params": "typedarray",
+                        "fn": "string",
+                        "implHandler": "code"
+                    },
+                    "name": "get",
+                    "designerId": "4ded4316-4444-455e-96e0-429d6ed86bf9"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "centered": null,
+        "controller": null,
+        "defaults": null,
+        "designer|userAlias": "login-panel",
+        "designer|userClassName": "LoginPanel",
+        "layout": "fit",
+        "padding": "",
+        "style": null,
+        "width": null
+    },
+    "configAlternates": {
+        "centered": "boolean",
+        "controller": "string",
+        "defaults": "object",
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "padding": "auto",
+        "style": "string",
+        "width": "auto",
+        "layout": "string"
+    },
+    "name": "MyContainer",
+    "designerId": "a2ff1a0c-19f2-4431-94ae-8d32a95a0910",
+    "viewControllerInstanceId": "42b0141c-42f5-41cc-92fc-0b64989ae2f9",
+    "viewModelInstanceId": "c5740dfe-2118-42cb-962e-7035e30a25c3"
+}
