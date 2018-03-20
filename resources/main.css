@@ -10,6 +10,11 @@
     font-size: 17px;
     margin-top:5px;
 }
+.content-container{
+    font-size: 14px;
+    /*     margin-top:7%; */
+    font-weight:300;
+}
 .title-news{
     font-size: 17px;
     margin-left:10px;
@@ -233,6 +238,7 @@ tr{
     content: "\f0e0";
     color: rgb(108, 187, 190);
 }
+
 .x-innerhtml {
     width : 100%;
 }
@@ -256,6 +262,9 @@ tr{
     border-bottom: 1px solid #ddd !important;
 }
 .test-a {
-/*     opacity: 0.5; */
+    /*     opacity: 0.5; */
     height :50px;
+}
+.x-textfield .x-underline-el{
+    display :none;
 }

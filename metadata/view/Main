@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "activeItem": 2,
+        "activeItem": 1,
         "designer|initialView": true,
         "designer|userAlias": "main",
         "designer|userClassName": "Main",
@@ -36,20 +36,9 @@
                 "type": "array"
             },
             "codeClass": null,
-            "name": "newsdetail",
-            "designerId": "bf8afddf-77b4-4d67-a066-6afcba77f118",
-            "masterInstanceId": "942e6887-0fb6-4fc4-ac04-72e168c8734e"
-        },
-        {
-            "type": "linkedinstance",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "name": "dangnhap11",
-            "designerId": "1bcdefb7-f23c-4880-915b-d8e4058e3c4f",
-            "masterInstanceId": "af6eb3aa-fafe-4663-a0f2-273a14c5c2ae"
+            "name": "support",
+            "designerId": "62bf38c6-8dc6-439a-b757-b3fa9c45e28d",
+            "masterInstanceId": "290563d1-9c1f-45ba-8d7b-c13d2aebb3f8"
         },
         {
             "type": "linkedinstance",
@@ -59,7 +48,7 @@
             },
             "codeClass": null,
             "name": "phan_hoi1",
-            "designerId": "38f4c949-8cb2-4c9b-a8de-1d5b2fd1468f",
+            "designerId": "c745b977-20dc-47f6-973a-c15329ac7610",
             "masterInstanceId": "608ba45a-84d5-4c8b-bf7f-bc49f649ed9c"
         }
     ]

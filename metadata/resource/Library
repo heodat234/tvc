@@ -7,6 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "basePath": "ext/",
+        "debug": true,
         "designer|userClassName": "Library",
         "libraryRequires": [
             "font-awesome"
@@ -17,7 +18,8 @@
         "basePath": "uri",
         "designer|userClassName": "string",
         "libraryRequires": "typedarray",
-        "theme": "string"
+        "theme": "string",
+        "debug": "boolean"
     },
     "name": "Library",
     "designerId": "a6f73396-1d38-4e69-b716-e161c7be941e"
