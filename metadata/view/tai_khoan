@@ -497,7 +497,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "docked": "top",
-                                "height": 170,
+                                "height": 144,
                                 "layout": "center",
                                 "style": "border-bottom:1px solid #b8cfff;"
                             },
@@ -519,10 +519,9 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "height": 100,
+                                        "height": "85%",
                                         "layout": "center",
-                                        "style": "background-size:cover;",
-                                        "width": 100
+                                        "width": 130
                                     },
                                     "configAlternates": {
                                         "height": "auto",
@@ -541,9 +540,9 @@
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "height": 201,
+                                                "height": "85%",
                                                 "src": "images/qrcode.png",
-                                                "width": 201
+                                                "width": "100%"
                                             },
                                             "configAlternates": {
                                                 "height": "auto",
@@ -552,6 +551,65 @@
                                             },
                                             "name": "MyImg",
                                             "designerId": "23403c1f-387e-4b07-9b2f-38e6b4231c78"
+                                        },
+                                        {
+                                            "type": "Ext.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "docked": "bottom",
+                                                "height": 46,
+                                                "layout": "center",
+                                                "margin": "-10 0 0 0",
+                                                "style": "text-align:center;"
+                                            },
+                                            "configAlternates": {
+                                                "docked": "string",
+                                                "margin": "auto",
+                                                "height": "auto",
+                                                "layout": "string",
+                                                "style": "string"
+                                            },
+                                            "name": "MyContainer18",
+                                            "designerId": "7865f6ad-b075-42f0-bb92-a90f3abf1b63",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.Button",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|uiInterfaceName": "user-menu-button",
+                                                        "docked": "right",
+                                                        "height": 40,
+                                                        "icon": "true",
+                                                        "iconCls": "x-fa fa-pencil-square-o",
+                                                        "style": "background:#ddd;",
+                                                        "ui": "user-menu-button",
+                                                        "width": 40,
+                                                        "zIndex": 99999
+                                                    },
+                                                    "configAlternates": {
+                                                        "docked": "string",
+                                                        "icon": "string",
+                                                        "iconCls": "string",
+                                                        "margin": "auto",
+                                                        "designer|uiInterfaceName": "string",
+                                                        "style": "string",
+                                                        "ui": "string",
+                                                        "width": "auto",
+                                                        "height": "auto",
+                                                        "zIndex": "number"
+                                                    },
+                                                    "name": "MyButton1",
+                                                    "designerId": "f6b22c03-bc30-4128-a41c-572afe9fe976"
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
@@ -564,13 +622,17 @@
                                     "codeClass": null,
                                     "userConfig": {
                                         "docked": "bottom",
+                                        "height": "15%",
                                         "layout": "center",
+                                        "margin": "-10 0 0 0",
                                         "style": "text-align:center;"
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "layout": "string",
-                                        "style": "string"
+                                        "style": "string",
+                                        "height": "auto",
+                                        "margin": "auto"
                                     },
                                     "name": "MyContainer17",
                                     "designerId": "b6efa532-50d7-41b5-b2ba-1df46c3f5e6d",
@@ -587,7 +649,7 @@
                                                     "content-container"
                                                 ],
                                                 "docked": "top",
-                                                "height": "",
+                                                "height": 31,
                                                 "html": "Tiếng Việt"
                                             },
                                             "configAlternates": {
@@ -599,56 +661,6 @@
                                             },
                                             "name": "MyLabel",
                                             "designerId": "e1015e4b-06f2-45c6-b42e-1739f15b5c7e"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Ext.Container",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "docked": "bottom",
-                                        "margin": "-10 0 0 0"
-                                    },
-                                    "configAlternates": {
-                                        "docked": "string",
-                                        "margin": "auto"
-                                    },
-                                    "name": "MyContainer18",
-                                    "designerId": "7865f6ad-b075-42f0-bb92-a90f3abf1b63",
-                                    "cn": [
-                                        {
-                                            "type": "Ext.Button",
-                                            "reference": {
-                                                "name": "items",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "designer|uiInterfaceName": "round",
-                                                "docked": "bottom",
-                                                "icon": "true",
-                                                "iconCls": "x-fa fa-pencil-square-o",
-                                                "margin": "0 0 0 200",
-                                                "style": "background:#ddd;",
-                                                "ui": "round",
-                                                "width": 32
-                                            },
-                                            "configAlternates": {
-                                                "docked": "string",
-                                                "icon": "string",
-                                                "iconCls": "string",
-                                                "margin": "auto",
-                                                "designer|uiInterfaceName": "string",
-                                                "style": "string",
-                                                "ui": "string",
-                                                "width": "auto"
-                                            },
-                                            "name": "MyButton1",
-                                            "designerId": "f6b22c03-bc30-4128-a41c-572afe9fe976"
                                         }
                                     ]
                                 }
@@ -711,16 +723,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-pencil",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton8",
                                     "designerId": "2cd97ed3-fa57-41a7-ba17-0d596fa5e6f4"
@@ -783,16 +801,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-pencil",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton7",
                                     "designerId": "528db159-35af-4d27-b73e-bb0c14ffd829"
@@ -856,16 +880,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-pencil",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton5",
                                     "designerId": "bc3097fd-ccce-4b94-8020-9cdec8fb861a"
@@ -928,16 +958,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-pencil",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton2",
                                     "designerId": "2d0de1e5-c74c-4a33-8b87-4ccce1f6dcf5"
@@ -1001,16 +1037,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-pencil",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton9",
                                     "designerId": "f1786e7e-ee23-45ca-b64b-28420d879c1f"

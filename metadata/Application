@@ -8,9 +8,6 @@
     "userConfig": {
         "name": "LoginApp",
         "views": [
-            "LoginPanel",
-            "ForgotPassword",
-            "CreateAccount",
             "Menu",
             "Notification",
             "News",

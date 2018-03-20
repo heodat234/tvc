@@ -596,16 +596,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-angle-right",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton1",
                                     "designerId": "78d97fa8-9a14-4072-ba49-273f5cd73664"
@@ -840,16 +846,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-angle-right",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton2",
                                     "designerId": "8c525257-70f2-4694-b3af-349539cdf3d5"
@@ -913,16 +925,22 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "designer|uiInterfaceName": "user-menu-button",
                                         "docked": "right",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-angle-right",
-                                        "margin": "0 20 0 0"
+                                        "margin": "0 20 0 0",
+                                        "ui": "user-menu-button",
+                                        "width": 40
                                     },
                                     "configAlternates": {
                                         "docked": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "margin": "auto"
+                                        "margin": "auto",
+                                        "designer|uiInterfaceName": "string",
+                                        "ui": "string",
+                                        "width": "auto"
                                     },
                                     "name": "MyButton3",
                                     "designerId": "9f4234e1-c161-4441-813e-5cc8d1df9ac5"

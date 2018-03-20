@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "dat_mk_moi1",
+        "designer|userClassName": "Dat_MK_Moi_1ViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "hungViewController12",
+    "designerId": "ca602652-7595-4cd1-8cb7-e99701c07704"
+}

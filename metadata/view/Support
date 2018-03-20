@@ -486,7 +486,6 @@
                                                 "margin": "",
                                                 "padding": 10,
                                                 "rowLines": false,
-                                                "scrollable": false,
                                                 "shadow": false,
                                                 "width": ""
                                             },
@@ -506,8 +505,7 @@
                                                 "docked": "string",
                                                 "width": "auto",
                                                 "height": "auto",
-                                                "rowLines": "boolean",
-                                                "scrollable": "auto"
+                                                "rowLines": "boolean"
                                             },
                                             "name": "MyList",
                                             "designerId": "4e411f92-1fe4-43a0-85a1-1c4b00353fd9",
@@ -531,26 +529,6 @@
                                                     },
                                                     "name": "itemTpl",
                                                     "designerId": "d423e6d0-ca74-4439-9672-b44948e5b12c"
-                                                },
-                                                {
-                                                    "type": "Ext.dataview.plugin.ListPaging",
-                                                    "reference": {
-                                                        "name": "plugins",
-                                                        "type": "array"
-                                                    },
-                                                    "codeClass": null,
-                                                    "name": "MyListPagingPlugin1",
-                                                    "designerId": "2e66e254-3037-4824-95e9-c55e00d886d9"
-                                                },
-                                                {
-                                                    "type": "Ext.dataview.pullrefresh.PullRefresh",
-                                                    "reference": {
-                                                        "name": "plugins",
-                                                        "type": "array"
-                                                    },
-                                                    "codeClass": null,
-                                                    "name": "MyPullRefreshPlugin1",
-                                                    "designerId": "e9fa5b82-d44d-49a6-b44d-a6c6f533585c"
                                                 }
                                             ]
                                         }

@@ -21,7 +21,8 @@
         "html": "string",
         "layout": "string",
         "style": "string",
-        "masked": "boolean"
+        "masked": "boolean",
+        "viewModel": "object"
     },
     "name": "hung1",
     "designerId": "8958873f-a85d-422f-bdca-94d429cc76f6",

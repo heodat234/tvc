@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "xacnhan_dangnhap",
+        "designer|userClassName": "XacnhanDNViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "XacnhanDNViewController",
+    "designerId": "19c8843a-98b7-4f63-b821-3228444938f2"
+}

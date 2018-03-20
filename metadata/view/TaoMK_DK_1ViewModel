@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "tao_mk_dangky1",
+        "designer|userClassName": "TaoMK_DK_1ViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "TaoMK_DK_1ViewModel",
+    "designerId": "88a210b4-aaa1-4d03-9f76-a4ffe6127c68"
+}

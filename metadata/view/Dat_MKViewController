@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "dat_matkhau",
+        "designer|userClassName": "Dat_MKViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "Dat_MKViewController",
+    "designerId": "df4cd688-b193-4009-9898-1e0d6eb2e16d"
+}

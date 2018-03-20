@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "datlai_mk",
+        "designer|userClassName": "DatLai_MKViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "DatLai_MKViewModel",
+    "designerId": "0c4fdae9-6b37-4c5d-8b09-2b7ec0197167"
+}
