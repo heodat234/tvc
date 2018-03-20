@@ -20,6 +20,9 @@ Ext.Loader.setConfig({
 
 
 Ext.application({
+    models: [
+        'MyModel'
+    ],
     views: [
         'LoginPanel',
         'ForgotPassword',
@@ -34,15 +37,14 @@ Ext.application({
         'GiftDetail',
         'Payment',
         'PaymentDetail',
-        'phan_hoi',
-        'cai_dat',
-        'tai_khoan',
-        'QR_code'
+        'Support',
+        'MyEventItem',
+        'Contact'
     ],
     name: 'LoginApp',
 
     launch: function() {
-        Ext.create('LoginApp.view.Test', {fullscreen: true});
+        Ext.create('LoginApp.view.Event', {fullscreen: true});
     }
 
 });
