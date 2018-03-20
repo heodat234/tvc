@@ -142,6 +142,7 @@
                     "if(record) {",
                     "    me.getViewModel().setData(record.getData());",
                     "",
+<<<<<<< HEAD
                     "    //     if (record.get('attachCount') > 0 ) {",
                     "    //         FrmFdDocument.getLink({",
                     "    //             linkto: 'WLT',",
@@ -162,6 +163,28 @@
                     "    //             }",
                     "    //         });",
                     "    //     } else me.down('#imgCmt').setHidden(true);",
+=======
+                    "//     if (record.get('attachCount') > 0 ) {",
+                    "//         FrmFdDocument.getLink({",
+                    "//             linkto: 'WLT',",
+                    "//             referencekey1: record.get('recordid'),",
+                    "//             referencekey2: record.get('linenum')",
+                    "//         },function(resLink) {",
+                    "//             if (resLink && resLink.success) {",
+                    "//                 if(resLink.data.length > 0) {",
+                    "//                     var img = resLink.data[0],",
+                    "//                         url\t= '';",
+                    "",
+                    "//                     me.down('#imgCmt').setHidden(false);",
+                    "//                     url = Ext.isChrome ? '/proxy/' + encodeURIComponent(host+'/frmfddocument/getfile?id=') + img.documentcode : (host+'/frmfddocument/getfile?id=' + img.documentcode);",
+                    "//                     me.down('#imgCmt').setSrc(url);",
+                    "//                 } else {",
+                    "//                     me.down('#imgCmt').setHidden(true);",
+                    "//                 }",
+                    "//             }",
+                    "//         });",
+                    "//     } else me.down('#imgCmt').setHidden(true);",
+>>>>>>> c485f234a669a3e8d82f35b43ae77abdc5b22036
                     "}"
                 ]
             },

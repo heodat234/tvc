@@ -1,18 +1,18 @@
 {
-    "type": "Ext.app.ViewModel",
+    "type": "Ext.app.ViewController",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "cai_dat",
-        "designer|userClassName": "LoginPanelViewModel12"
+        "designer|userAlias": "qr_code",
+        "designer|userClassName": "LoginPanelViewController14"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "name": "LoginPanelViewModel12",
-    "designerId": "c7b4c068-3ebd-43cc-8ad8-8e3c2ed8792d"
+    "name": "LoginPanelViewController14",
+    "designerId": "1feec5c1-fd7c-4b8b-bb02-ed931b7597ad"
 }

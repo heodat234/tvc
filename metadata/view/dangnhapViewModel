@@ -6,13 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "cai_dat",
-        "designer|userClassName": "LoginPanelViewModel12"
+        "designer|userAlias": "dangnhap",
+        "designer|userClassName": "dangnhapViewModel"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "name": "LoginPanelViewModel12",
-    "designerId": "c7b4c068-3ebd-43cc-8ad8-8e3c2ed8792d"
+    "designerId": "0c529547-3574-41c2-86f2-a78961330c25"
 }

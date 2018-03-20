@@ -20,7 +20,11 @@
             "Gift",
             "GiftDetail",
             "Payment",
-            "PaymentDetail"
+            "PaymentDetail",
+            "phan_hoi",
+            "cai_dat",
+            "tai_khoan",
+            "QR_code"
         ]
     },
     "configAlternates": {

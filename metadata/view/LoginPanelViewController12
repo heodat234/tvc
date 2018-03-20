@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "contact",
+        "designer|userAlias": "cai_dat",
         "designer|userClassName": "LoginPanelViewController12"
     },
     "configAlternates": {
@@ -14,5 +14,5 @@
         "designer|userClassName": "string"
     },
     "name": "LoginPanelViewController12",
-    "designerId": "1791fe9b-df84-4471-a0b1-8b30501cfa29"
+    "designerId": "5a6f9a2a-fd90-414c-bf68-628e7f426805"
 }

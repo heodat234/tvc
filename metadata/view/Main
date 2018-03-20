@@ -6,8 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "activeItem": 1,
-        "designer|initialView": true,
+        "activeItem": 2,
         "designer|userAlias": "main",
         "designer|userClassName": "Main",
         "docked": null,
@@ -47,9 +46,20 @@
                 "type": "array"
             },
             "codeClass": null,
-            "name": "hung81",
+            "name": "dangnhap11",
             "designerId": "1bcdefb7-f23c-4880-915b-d8e4058e3c4f",
             "masterInstanceId": "af6eb3aa-fafe-4663-a0f2-273a14c5c2ae"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "phan_hoi1",
+            "designerId": "38f4c949-8cb2-4c9b-a8de-1d5b2fd1468f",
+            "masterInstanceId": "608ba45a-84d5-4c8b-bf7f-bc49f649ed9c"
         }
     ]
 }

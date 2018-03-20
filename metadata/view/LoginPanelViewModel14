@@ -6,13 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "cai_dat",
-        "designer|userClassName": "LoginPanelViewModel12"
+        "designer|userAlias": "qr_code",
+        "designer|userClassName": "LoginPanelViewModel14"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "name": "LoginPanelViewModel12",
-    "designerId": "c7b4c068-3ebd-43cc-8ad8-8e3c2ed8792d"
+    "name": "LoginPanelViewModel14",
+    "designerId": "be21b624-949d-4288-b041-02976e4c4217"
 }

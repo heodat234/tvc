@@ -14,8 +14,10 @@
             "}"
         ],
         "defaults": null,
-        "designer|userAlias": "notification",
-        "designer|userClassName": "Notification",
+        "designer|userAlias": "QR_code",
+        "designer|userClassName": "QR_code",
+        "disabled": true,
+        "displayed": true,
         "height": "100%",
         "layout": "vbox",
         "padding": "",
@@ -34,12 +36,14 @@
         "width": "auto",
         "layout": "string",
         "height": "auto",
-        "data": "object"
+        "data": "object",
+        "disabled": "boolean",
+        "displayed": "boolean"
     },
-    "name": "Menu1",
-    "designerId": "5422f708-2504-4e6c-8002-bade569c85e3",
-    "viewControllerInstanceId": "cbae587d-7947-4b52-af96-55bf86973333",
-    "viewModelInstanceId": "12584e16-9745-4e1c-bbeb-1950b44f676e",
+    "name": "tai_khoan1",
+    "designerId": "8fedcb55-a54e-4404-b55a-99712695cf6f",
+    "viewControllerInstanceId": "1feec5c1-fd7c-4b8b-bb02-ed931b7597ad",
+    "viewModelInstanceId": "be21b624-949d-4288-b041-02976e4c4217",
     "cn": [
         {
             "type": "Ext.Container",
@@ -68,7 +72,7 @@
                 "minHeight": "auto"
             },
             "name": "MyContainer7",
-            "designerId": "883a7fe1-0a11-41a9-8180-a1a68796874c",
+            "designerId": "f02c89b6-25cd-4af9-ad7f-424068d2044b",
             "cn": [
                 {
                     "type": "Ext.Container",
@@ -86,7 +90,7 @@
                         "width": "auto"
                     },
                     "name": "MyContainer20",
-                    "designerId": "db072a6a-4d0b-4399-b521-6dc9474f34d3",
+                    "designerId": "b1ff0806-d885-4a48-badc-ccc5ac86b4a4",
                     "cn": [
                         {
                             "type": "Ext.Container",
@@ -102,7 +106,7 @@
                                 "layout": "string"
                             },
                             "name": "MyContainer1",
-                            "designerId": "76604829-465b-4f05-a988-c99fc5bc9e16",
+                            "designerId": "0c8e16c2-28fa-440e-92e1-3d48828356f7",
                             "cn": [
                                 {
                                     "type": "Ext.Button",
@@ -133,7 +137,7 @@
                                         "margin": "auto"
                                     },
                                     "name": "MyButton",
-                                    "designerId": "acfe6b84-1110-40b1-9e39-6fbf21102b0f"
+                                    "designerId": "77dec012-e55c-4b24-a5ec-ddac3b980fc1"
                                 }
                             ]
                         },
@@ -145,7 +149,7 @@
                             },
                             "codeClass": null,
                             "name": "MyContainer2",
-                            "designerId": "6d0844ba-439f-4cac-8de1-732a28bcf544"
+                            "designerId": "64988d72-30c4-41ee-b209-dc4f16e4d3aa"
                         }
                     ]
                 },
@@ -173,7 +177,7 @@
                         "width": "auto"
                     },
                     "name": "MyContainer21",
-                    "designerId": "05c0786f-0990-4a1f-9014-4e22646fa40a"
+                    "designerId": "ea6099a9-2cd6-44e8-87fa-b3b68096f1b1"
                 },
                 {
                     "type": "Ext.Container",
@@ -192,7 +196,7 @@
                         "width": "auto"
                     },
                     "name": "MyContainer23",
-                    "designerId": "6b1e3be1-524e-4ba1-9748-b1d1d2277413",
+                    "designerId": "93a4d072-91b7-4b20-b80e-6e994e798939",
                     "cn": [
                         {
                             "type": "Ext.Container",
@@ -208,7 +212,7 @@
                                 "width": "auto"
                             },
                             "name": "MyContainer3",
-                            "designerId": "0e813ce5-1a9f-45a0-b468-f677c86647f3"
+                            "designerId": "1538b682-1480-42be-a67e-d9cad3345c4b"
                         },
                         {
                             "type": "Ext.Container",
@@ -226,7 +230,7 @@
                                 "width": "auto"
                             },
                             "name": "MyContainer4",
-                            "designerId": "001a869e-7290-4eb2-95f7-95c46ff359f2",
+                            "designerId": "bafa4752-b630-49c4-b800-8a7961607ac3",
                             "cn": [
                                 {
                                     "type": "Ext.Button",
@@ -258,7 +262,7 @@
                                         "arrow": "boolean"
                                     },
                                     "name": "MyButton4",
-                                    "designerId": "6536e805-1801-4763-800b-2829f5c3ce8d",
+                                    "designerId": "b2cb9be5-f3cd-4391-bf4b-712b0f99dbcc",
                                     "cn": [
                                         {
                                             "type": "Ext.menu.Menu",
@@ -274,7 +278,7 @@
                                                 "width": "auto"
                                             },
                                             "name": "MyMenu1",
-                                            "designerId": "d6f4209f-b5f7-46e9-89ee-98d6aa0565cc",
+                                            "designerId": "b76aa815-918f-4a55-916b-dbdf68d679ad",
                                             "cn": [
                                                 {
                                                     "type": "Ext.menu.Item",
@@ -294,7 +298,7 @@
                                                         "text": "string"
                                                     },
                                                     "name": "MyMenuItem3",
-                                                    "designerId": "e26a9e23-2171-4a98-84d8-dba5c3bbdb03"
+                                                    "designerId": "a5f732c2-acab-482e-9375-28b5d4231cd7"
                                                 },
                                                 {
                                                     "type": "Ext.menu.Item",
@@ -314,7 +318,7 @@
                                                         "text": "string"
                                                     },
                                                     "name": "MyMenuItem4",
-                                                    "designerId": "af924096-9582-45bf-9054-2591b40f282d"
+                                                    "designerId": "26eed6aa-1a03-4604-9f08-14f3fc553e54"
                                                 },
                                                 {
                                                     "type": "Ext.menu.Item",
@@ -334,7 +338,7 @@
                                                         "text": "string"
                                                     },
                                                     "name": "MyMenuItem5",
-                                                    "designerId": "bf1b4396-8f9d-4360-927f-15d5f6b5e920"
+                                                    "designerId": "df83b824-01ed-4088-b2a1-2b18e6d7d91e"
                                                 },
                                                 {
                                                     "type": "Ext.menu.Item",
@@ -354,7 +358,7 @@
                                                         "text": "string"
                                                     },
                                                     "name": "MyMenuItem9",
-                                                    "designerId": "939602ac-bd51-4290-9872-f1a38f1a4a19"
+                                                    "designerId": "aaac3f4c-dc80-4714-9411-a7b9a330f1e5"
                                                 },
                                                 {
                                                     "type": "Ext.menu.Item",
@@ -374,7 +378,7 @@
                                                         "text": "string"
                                                     },
                                                     "name": "MyMenuItem10",
-                                                    "designerId": "b4edc1de-207f-4ba1-9df9-c8ec32b94791"
+                                                    "designerId": "03423c45-757e-406c-9512-a3774550ee61"
                                                 },
                                                 {
                                                     "type": "Ext.menu.Item",
@@ -394,7 +398,7 @@
                                                         "text": "string"
                                                     },
                                                     "name": "MyMenuItem11",
-                                                    "designerId": "77e208d4-fc30-48f6-baaf-160046eddeab"
+                                                    "designerId": "48d3c7f8-e150-4e4b-a6b3-4fc0cf845a38"
                                                 }
                                             ]
                                         }
@@ -422,7 +426,7 @@
                 "layout": "string"
             },
             "name": "MyContainer",
-            "designerId": "530b4189-c359-4748-b6a8-cee734f1e31b",
+            "designerId": "750a888d-735f-4e65-a3b7-3dc69b5fb69a",
             "cn": [
                 {
                     "type": "Ext.Container",
@@ -432,7 +436,7 @@
                     },
                     "codeClass": null,
                     "name": "MyContainer28",
-                    "designerId": "794a2086-3b07-43a4-a5d1-76be335f955e",
+                    "designerId": "faf6b8c9-1d92-4b23-8a71-7224f3310647",
                     "cn": [
                         {
                             "type": "Ext.Container",
@@ -442,6 +446,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "docked": "top",
                                 "height": "8%",
                                 "layout": "center",
                                 "style": "border-bottom:1px solid #b8cfff;"
@@ -449,10 +454,11 @@
                             "configAlternates": {
                                 "height": "auto",
                                 "layout": "string",
-                                "style": "string"
+                                "style": "string",
+                                "docked": "string"
                             },
                             "name": "MyContainer29",
-                            "designerId": "2c73bbd4-6ac1-468a-8f37-77dfaed8f619",
+                            "designerId": "98825466-269f-4b96-8714-7c39423ef26a",
                             "cn": [
                                 {
                                     "type": "Ext.Label",
@@ -467,7 +473,7 @@
                                         ],
                                         "docked": null,
                                         "height": "10%",
-                                        "html": "Thông báo",
+                                        "html": "Cập nhật tài khoản",
                                         "margin": ""
                                     },
                                     "configAlternates": {
@@ -478,100 +484,76 @@
                                         "margin": "auto"
                                     },
                                     "name": "MyLabel",
-                                    "designerId": "0527e937-0f53-4478-b364-6645f7c9e9d5"
+                                    "designerId": "80d4410a-26c4-4c91-b980-51a6254bab3e"
                                 }
                             ]
                         },
                         {
-                            "type": "Ext.dataview.List",
+                            "type": "Ext.Container",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "data": [
-                                    "[",
-                                    "    {",
-                                    "        title:'Giới thiệu dự án Tille Residents',",
-                                    "        time:'2 giờ trước',",
-                                    "        icon:'fa fa-circle',",
-                                    "        unread:'unread-title'",
-                                    "    },",
-                                    "    {",
-                                    "        title:'Thông báo thanh toán đợt 9',",
-                                    "        time:'10 giờ trước',",
-                                    "        icon:''",
-                                    "    },",
-                                    "    {",
-                                    "        title:'Thông báo mở bán block D',",
-                                    "        time:'15 giờ trước',",
-                                    "        icon:''",
-                                    "    },",
-                                    "    {",
-                                    "        title:'Ưu đãi giảm giá 20 tại Le Residents',",
-                                    "        time:'15 giờ trước',",
-                                    "        icon:'fa fa-circle',",
-                                    "        unread:'unread-title'",
-                                    "    },",
-                                    "    {",
-                                    "        title:'Đăng ký tham gia sự kiện thành công',",
-                                    "        time:'2 tuần trước',",
-                                    "        icon:''",
-                                    "    },",
-                                    "]"
-                                ],
-                                "layout": "vbox",
-                                "margin": "0 5 0 5"
+                                "docked": "top",
+                                "height": "100%",
+                                "layout": "center",
+                                "style": "border-bottom:1px solid #b8cfff;"
                             },
                             "configAlternates": {
-                                "data": "array",
+                                "height": "auto",
                                 "layout": "string",
-                                "margin": "auto"
+                                "style": "string",
+                                "docked": "string",
+                                "padding": "auto"
                             },
-                            "name": "MyList",
-                            "designerId": "def95692-def8-4082-b339-85ce5ef87b3b",
+                            "name": "MyContainer9",
+                            "designerId": "3df8474e-0408-4ab9-9a13-085cde74b55a",
                             "cn": [
                                 {
-                                    "type": "Ext.XTemplate",
+                                    "type": "Ext.Container",
                                     "reference": {
-                                        "name": "itemTpl",
-                                        "type": "object"
+                                        "name": "items",
+                                        "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|displayName": "itemTpl",
-                                        "implHandler": [
-                                            "<div class='notif-title {unread}'><i class='notif-icon-list {icon}'></i> {title}</div>",
-                                            "<div class='notif-time'>{time}</div>"
-                                        ]
+                                        "height": 250,
+                                        "layout": "center",
+                                        "style": "background-size:cover;",
+                                        "width": 250
                                     },
                                     "configAlternates": {
-                                        "designer|displayName": "string",
-                                        "implHandler": "code"
+                                        "height": "auto",
+                                        "layout": "string",
+                                        "style": "string",
+                                        "width": "auto"
                                     },
-                                    "name": "itemTpl",
-                                    "designerId": "7cd94fb3-32b6-433b-9246-eb045be7fd87"
-                                },
-                                {
-                                    "type": "Ext.dataview.plugin.ListPaging",
-                                    "reference": {
-                                        "name": "plugins",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "name": "MyListPagingPlugin",
-                                    "designerId": "319a85d5-e8bc-444c-aaa1-cb055993b76a"
-                                },
-                                {
-                                    "type": "Ext.dataview.pullrefresh.PullRefresh",
-                                    "reference": {
-                                        "name": "plugins",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "name": "MyPullRefreshPlugin",
-                                    "designerId": "43a7a585-28e1-42c9-bc8c-7630e01aa277"
+                                    "name": "MyContainer16",
+                                    "designerId": "5f8ae219-d208-4bf8-b8f4-55291594035d",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.Img",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "height": 201,
+                                                "src": "images/qrcode.png",
+                                                "width": 201
+                                            },
+                                            "configAlternates": {
+                                                "height": "auto",
+                                                "src": "uri",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyImg",
+                                            "designerId": "89e9fe90-0fa0-4784-9694-6abdfaea8a24"
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -597,7 +579,7 @@
                 "style": "string"
             },
             "name": "MyContainer5",
-            "designerId": "2dc13fcd-972c-4028-af9c-0ce1012c695b",
+            "designerId": "b3960ad9-28df-4773-9131-8620e19edd1c",
             "cn": [
                 {
                     "type": "Ext.Container",
@@ -618,7 +600,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer25",
-                    "designerId": "3db9e041-bd32-4ad1-a6e5-a82d7285559a",
+                    "designerId": "864071f3-08ca-41dd-b450-3d6b97c3c315",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -648,7 +630,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "6f080d1c-cf17-4094-9a0f-7120ad5f9694"
+                            "designerId": "96918592-3072-437a-8824-97923c44937b"
                         },
                         {
                             "type": "Ext.Label",
@@ -668,7 +650,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "f74110d7-645c-4d5c-a147-e872c0bcd99d"
+                            "designerId": "b31f2495-f3f1-43e8-85db-c5f517f03ccd"
                         }
                     ]
                 },
@@ -691,7 +673,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer",
-                    "designerId": "3be6a9ae-5609-4bcf-bcf7-595b56ef2d05",
+                    "designerId": "844d424c-4074-442d-9edb-0c975a03e3f5",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -721,7 +703,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "3e863eb3-163d-4412-969d-0e00de35d1cf"
+                            "designerId": "b2755e2e-c100-44e1-8180-c935e5987983"
                         },
                         {
                             "type": "Ext.Label",
@@ -741,7 +723,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "2dc0f9e1-8567-496c-83e5-c11446e9a185"
+                            "designerId": "0037536b-e41f-49e6-b270-0925d96a4cce"
                         }
                     ]
                 },
@@ -764,7 +746,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer6",
-                    "designerId": "1c3aac71-4eef-462c-9d55-83994df0a7e5",
+                    "designerId": "558b79af-8848-4181-a52f-2c5de2c9d3c5",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -794,7 +776,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "52d58522-04af-4141-bb18-6fe01830c279"
+                            "designerId": "8959509a-684b-42f0-8a25-d22b6b4c5347"
                         },
                         {
                             "type": "Ext.Label",
@@ -814,7 +796,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "5f401cc3-760e-4d71-ade9-d56a613eb70e"
+                            "designerId": "da38d392-d782-47ca-849c-2fda656ecb50"
                         }
                     ]
                 },
@@ -837,7 +819,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer26",
-                    "designerId": "207a9ff5-17c5-4941-b64c-19470c425778",
+                    "designerId": "fa492824-161b-4ead-8162-767c2990a2f9",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -867,7 +849,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "e1c33ec5-ac4d-4802-97bd-685511a82e1b"
+                            "designerId": "2f4ea6d7-5659-4a99-a11b-85d56b28f9d2"
                         },
                         {
                             "type": "Ext.Label",
@@ -887,7 +869,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "005fb6d6-6ce7-4bb6-903e-2203fc1b65e8"
+                            "designerId": "74d2b354-57c0-45d6-81b4-78fc6d914d5d"
                         }
                     ]
                 },
@@ -910,7 +892,7 @@
                         "layout": "string"
                     },
                     "name": "MyContainer27",
-                    "designerId": "a3092c66-ed50-4545-b58f-6a661eec81ae",
+                    "designerId": "bdec432c-d497-485f-9522-5226dbc74275",
                     "cn": [
                         {
                             "type": "Ext.Button",
@@ -940,7 +922,7 @@
                                 "width": "auto"
                             },
                             "name": "MyButton12",
-                            "designerId": "48d96774-2282-4e35-adaf-04a70605d05b"
+                            "designerId": "ccba465f-ac4d-48e8-b0b6-4dbfe655b3af"
                         },
                         {
                             "type": "Ext.Label",
@@ -960,7 +942,7 @@
                                 "cls": "typedarray"
                             },
                             "name": "MyLabel5",
-                            "designerId": "a4a560af-5bf9-40e8-8815-33e8e1c68780"
+                            "designerId": "844e0192-c4af-4e62-a822-b029733f38b1"
                         }
                     ]
                 }

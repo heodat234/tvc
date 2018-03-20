@@ -630,6 +630,7 @@
                                     "designerId": "d6f0c72a-7ebd-4af0-802e-ae22d9fea9e7"
                                 }
                             ]
+<<<<<<< HEAD
                         },
                         {
                             "type": "Ext.Component",
@@ -640,6 +641,8 @@
                             "codeClass": null,
                             "name": "MyComponent",
                             "designerId": "1bdd56fb-f681-4145-a879-411a5a43fe85"
+=======
+>>>>>>> c485f234a669a3e8d82f35b43ae77abdc5b22036
                         }
                     ]
                 }
