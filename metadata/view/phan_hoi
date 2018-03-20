@@ -238,6 +238,7 @@
                                     "userConfig": {
                                         "arrow": false,
                                         "designer|uiInterfaceName": "user-menu-button",
+                                        "enableToggle": true,
                                         "height": 40,
                                         "icon": "true",
                                         "iconCls": "x-fa fa-user-circle",
@@ -255,7 +256,8 @@
                                         "text": "string",
                                         "ui": "string",
                                         "width": "auto",
-                                        "arrow": "boolean"
+                                        "arrow": "boolean",
+                                        "enableToggle": "boolean"
                                     },
                                     "name": "MyButton4",
                                     "designerId": "cccda0d8-791c-4c92-8490-140a8ac51f1e",
@@ -506,7 +508,14 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "autoComplete": true,
+                                        "autoFitErrors": false,
+                                        "autoLoadOnValue": true,
+                                        "axisLock": false,
                                         "border": true,
+                                        "displayed": false,
+                                        "draggable": false,
+                                        "editable": false,
                                         "height": 33,
                                         "options": [
                                             "[{",
@@ -520,8 +529,11 @@
                                             "                value: '3'",
                                             "            }]"
                                         ],
-                                        "style": "border: 1px solid #ddd",
-                                        "toFrontOnShow": false
+                                        "required": true,
+                                        "selectOnTab": false,
+                                        "style": "border:1px solid #ddd;",
+                                        "toFrontOnShow": false,
+                                        "userSelectable": true
                                     },
                                     "configAlternates": {
                                         "border": "boolean",
@@ -529,7 +541,17 @@
                                         "style": "string",
                                         "value": "object",
                                         "options": "array",
-                                        "toFrontOnShow": "boolean"
+                                        "toFrontOnShow": "boolean",
+                                        "required": "boolean",
+                                        "selectOnTab": "boolean",
+                                        "autoComplete": "boolean",
+                                        "autoFitErrors": "boolean",
+                                        "autoLoadOnValue": "boolean",
+                                        "axisLock": "boolean",
+                                        "displayed": "boolean",
+                                        "draggable": "boolean",
+                                        "editable": "boolean",
+                                        "userSelectable": "boolean"
                                     },
                                     "name": "MySelectField",
                                     "designerId": "581554f9-6407-4227-aa10-3522fc8ad50f"

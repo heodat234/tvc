@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|compileAllUis": true,
         "designer|userClassName": "MyMaterialTheme",
         "platform": [
             "phone",
@@ -15,7 +16,8 @@
     },
     "configAlternates": {
         "designer|userClassName": "string",
-        "platform": "typedarray"
+        "platform": "typedarray",
+        "designer|compileAllUis": "boolean"
     },
     "name": "MyMaterialTheme",
     "designerId": "eb2621ca-62e3-49a6-860c-97902d2b14a0",

@@ -211,6 +211,7 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
+                                                        "hideOnClick": false,
                                                         "icon": "true",
                                                         "iconCls": "x-fa fa-user",
                                                         "text": "Tài khoản"
@@ -218,7 +219,8 @@
                                                     "configAlternates": {
                                                         "icon": "string",
                                                         "iconCls": "string",
-                                                        "text": "string"
+                                                        "text": "string",
+                                                        "hideOnClick": "boolean"
                                                     },
                                                     "name": "MyMenuItem3",
                                                     "designerId": "4b32b9ad-9efe-4693-a079-de2e34f363c1"
