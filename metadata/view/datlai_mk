@@ -289,7 +289,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "cls": [
-                                    "btn"
+                                    "tvc-btn"
                                 ],
                                 "designer|uiInterfaceName": "dangnhap",
                                 "docked": null,
@@ -319,56 +319,28 @@
                             "designerId": "ea52f137-2974-437b-9cbf-3d0ca458d4b8"
                         },
                         {
-                            "type": "Ext.Label",
+                            "type": "Ext.Button",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "defaultListenerScope": true,
+                                "cls": [
+                                    "label-btn"
+                                ],
                                 "docked": "bottom",
-                                "html": "<a class=\"link\" href=\"#\">Đăng nhập với số điện thoại khác</a>",
-                                "itemId": "mylabel1",
-                                "margin": "10%",
-                                "style": "text-align:center;font-size:9px;"
+                                "margin": "0 90 0 90",
+                                "text": "Đăng nhập với số điện thoại khác"
                             },
                             "configAlternates": {
-                                "defaultListenerScope": "boolean",
-                                "html": "string",
-                                "itemId": "string",
-                                "margin": "auto",
+                                "cls": "typedarray",
                                 "docked": "string",
-                                "style": "string"
+                                "margin": "auto",
+                                "text": "string"
                             },
-                            "name": "MyLabel7",
-                            "designerId": "e367c6c5-21aa-41fa-8930-1604345fb657",
-                            "cn": [
-                                {
-                                    "type": "delegateeventbinding",
-                                    "reference": {
-                                        "name": "listeners",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "designer|targetType": "Ext.Button",
-                                        "fn": "onButtonTap",
-                                        "implHandler": [
-                                            "alert('Hung dep zai');"
-                                        ],
-                                        "name": "tap"
-                                    },
-                                    "configAlternates": {
-                                        "designer|targetType": "view",
-                                        "fn": "string",
-                                        "implHandler": "code",
-                                        "name": "string"
-                                    },
-                                    "name": "onButtonTap",
-                                    "designerId": "d16dba70-967f-445f-985e-8eb241339dc5"
-                                }
-                            ]
+                            "name": "MyButton2",
+                            "designerId": "4a4c2bda-4d03-459f-943b-7d5c51eedf9d"
                         }
                     ]
                 }

@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "activeItem": 5,
         "container|animation": "slide",
         "designer|initialView": true,
         "designer|userAlias": "main",
@@ -72,6 +73,28 @@
             "name": "dat_matkhau11",
             "designerId": "17dafdec-d59a-4222-855f-792b51782845",
             "masterInstanceId": "8f86d09b-b99b-493e-aed4-e2d550fae9ed"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "xacnhan_dangky1",
+            "designerId": "f077af55-768f-4f6e-9490-28b572ad8a39",
+            "masterInstanceId": "463cb06d-a3ee-4eb9-af78-7dfd2839c25d"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "menu",
+            "designerId": "41c9c971-4ac6-4acd-a777-783e33ab06ef",
+            "masterInstanceId": "f78c66db-abd4-47cc-8b63-51e51fa34ea2"
         }
     ]
 }
