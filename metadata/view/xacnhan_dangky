@@ -365,7 +365,7 @@
                             "userConfig": {
                                 "defaultListenerScope": true,
                                 "docked": "bottom",
-                                "html": "<span>Đã có tài khoản? <a class=\"link-dn\" href=\"\">ĐĂNG NHẬP</a></span>",
+                                "html": "<span>Đã có tài khoản? <a class=\"link-dn\" href=\"#\">ĐĂNG NHẬP</a></span>",
                                 "itemId": "mylabel",
                                 "margin": "",
                                 "style": "text-align:center;font-size:9px;"
@@ -417,7 +417,7 @@
                             "userConfig": {
                                 "defaultListenerScope": true,
                                 "docked": "bottom",
-                                "html": "<span>Chưa nhận được mã xác thực? <a class=\"link\" href=\"\">GỬI LẠI</a></span>",
+                                "html": "<span>Chưa nhận được mã xác thực? <a class=\"link\" href=\"#\">GỬI LẠI</a></span>",
                                 "itemId": "mylabel1",
                                 "margin": "10%",
                                 "style": "text-align:center;font-size:9px;"

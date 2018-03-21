@@ -358,7 +358,7 @@
                             "userConfig": {
                                 "defaultListenerScope": true,
                                 "docked": "bottom",
-                                "html": "<span>Bỏ qua thiết lập mật khẩu, <a class=\"link\" href=\"\">tiêp tục sử dụng</a></span>",
+                                "html": "<span>Bỏ qua thiết lập mật khẩu, <a class=\"link\" href=\"#\"><b>tiêp tục sử dụng</b></a></span>",
                                 "itemId": "mylabel1",
                                 "margin": "10%",
                                 "style": "text-align:center;font-size:9px;"

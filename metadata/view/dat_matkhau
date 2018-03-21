@@ -243,7 +243,7 @@
                                         ],
                                         "fn": "toggleHandler",
                                         "implHandler": [
-                                            "this.up('main').setActiveItem(1);"
+                                            "this.up('main').setActiveItem(3);"
                                         ]
                                     },
                                     "configAlternates": {
@@ -266,7 +266,7 @@
                             "userConfig": {
                                 "defaultListenerScope": true,
                                 "docked": "bottom",
-                                "html": "<span>Bỏ qua thiết lập mật khẩu, <b>tiếp tục sử dung</b></span>",
+                                "html": "<span>Bỏ qua thiết lập mật khẩu, <a class=\"link\" href=\"#\"><b>tiếp tục sử dung</b></a></span>",
                                 "itemId": "mylabel",
                                 "margin": "20%",
                                 "style": "text-align:center;font-size:9px;"

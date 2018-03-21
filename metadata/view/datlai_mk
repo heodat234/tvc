@@ -328,7 +328,7 @@
                             "userConfig": {
                                 "defaultListenerScope": true,
                                 "docked": "bottom",
-                                "html": "<a class=\"link\" href=\"\">Đăng nhập với số điện thoại khác</a>",
+                                "html": "<a class=\"link\" href=\"#\">Đăng nhập với số điện thoại khác</a>",
                                 "itemId": "mylabel1",
                                 "margin": "10%",
                                 "style": "text-align:center;font-size:9px;"

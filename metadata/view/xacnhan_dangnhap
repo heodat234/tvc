@@ -230,7 +230,7 @@
                                         ],
                                         "fn": "toggleHandler",
                                         "implHandler": [
-                                            "this.up('main').setActiveItem(1);"
+                                            "this.up('main').setActiveItem(2);"
                                         ]
                                     },
                                     "configAlternates": {

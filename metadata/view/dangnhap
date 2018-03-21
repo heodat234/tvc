@@ -56,8 +56,7 @@
                     "userConfig": {
                         "docked": "top",
                         "height": 100,
-                        "margin": "70 70 0 70",
-                        "style": "background: url(images/logo.png);background-repeat: no-repeat;background-position: center;background-size:cover;background-size: 80%"
+                        "margin": "70% 70% 0% 70%"
                     },
                     "configAlternates": {
                         "docked": "string",
@@ -66,7 +65,31 @@
                         "style": "string"
                     },
                     "name": "MyContainer7",
-                    "designerId": "403a8f87-8ba3-433a-82cb-1bd2a97861e6"
+                    "designerId": "403a8f87-8ba3-433a-82cb-1bd2a97861e6",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": "100%",
+                                "src": "images/logo.png",
+                                "style": "background-repeat: no-repeat;background-position: center;background-size:cover;background-size: 80%",
+                                "width": "100%"
+                            },
+                            "configAlternates": {
+                                "height": "auto",
+                                "src": "uri",
+                                "style": "string",
+                                "width": "auto"
+                            },
+                            "name": "MyImg1",
+                            "designerId": "0e9fc2a1-8179-4944-a971-979c3da8e312"
+                        }
+                    ]
                 },
                 {
                     "type": "Ext.Container",
@@ -248,7 +271,7 @@
                             "userConfig": {
                                 "defaultListenerScope": true,
                                 "docked": "bottom",
-                                "html": "<a class=\"link\" href=\"\">Đăng Ký</a>",
+                                "html": "<a class=\"link\" href=\"#\">Đăng Ký</a>",
                                 "itemId": "mylabel",
                                 "margin": "20%",
                                 "style": "text-align:center;"
@@ -275,7 +298,7 @@
                                         "designer|targetType": "Ext.Button",
                                         "fn": "onButtonTap",
                                         "implHandler": [
-                                            "alert('Hung dep zai');"
+                                            "this.up('main').setActiveItem(3);"
                                         ],
                                         "name": "tap"
                                     },

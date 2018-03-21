@@ -321,7 +321,7 @@
                                     "userConfig": {
                                         "defaultListenerScope": true,
                                         "docked": "left",
-                                        "html": "<a class=\"link\" href=\"\">Đăng ký</a>",
+                                        "html": "<a class=\"link\" href=\"#\">Đăng ký</a>",
                                         "itemId": "mylabel1",
                                         "margin": "",
                                         "style": "text-align:center;font-size:9px;",
@@ -375,7 +375,7 @@
                                     "userConfig": {
                                         "defaultListenerScope": true,
                                         "docked": "right",
-                                        "html": "<a class=\"link\" href=\"\">Liên hệ</a>",
+                                        "html": "<a class=\"link\" href=\"#\">Liên hệ</a>",
                                         "itemId": "mylabel2",
                                         "margin": "",
                                         "style": "text-align:center;font-size:9px;",
