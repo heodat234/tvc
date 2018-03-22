@@ -8,13 +8,15 @@
     "userConfig": {
         "designer|userAlias": "myeventitem",
         "designer|userAliasPrefix": "widget",
-        "designer|userClassName": "MyEventItem"
+        "designer|userClassName": "MyEventItem",
+        "keyMapEnabled": true
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string",
         "html": "string",
-        "designer|userAliasPrefix": "string"
+        "designer|userAliasPrefix": "string",
+        "keyMapEnabled": "boolean"
     },
     "name": "MyContainer4",
     "designerId": "dc4d5c32-ccb4-4524-8b4d-58dedfe2aef0",
@@ -29,7 +31,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "height": "50%",
+                "height": 200,
                 "margin": 5
             },
             "configAlternates": {
@@ -62,7 +64,33 @@
                         "style": "string"
                     },
                     "name": "MyContainer45",
-                    "designerId": "31792d03-9ec6-4bc3-9a84-79ef84cd598b"
+                    "designerId": "31792d03-9ec6-4bc3-9a84-79ef84cd598b",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": "100%",
+                                "src": [
+                                    "{image}"
+                                ],
+                                "style": "background-size:cover;",
+                                "width": "100%"
+                            },
+                            "configAlternates": {
+                                "src": "binding",
+                                "height": "auto",
+                                "style": "string",
+                                "width": "auto"
+                            },
+                            "name": "MyImg",
+                            "designerId": "936ab3ce-6ef4-46e9-8808-935e503fd4da"
+                        }
+                    ]
                 },
                 {
                     "type": "Ext.Container",
@@ -73,7 +101,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "docked": "top",
-                        "height": "35%",
+                        "height": "33%",
                         "layout": "hbox",
                         "zIndex": 99
                     },
@@ -112,11 +140,13 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "html": "Tháng 7 08",
+                                        "html": [
+                                            "{date}"
+                                        ],
                                         "style": "font-size: 15px;text-align:center;"
                                     },
                                     "configAlternates": {
-                                        "html": "string",
+                                        "html": "binding",
                                         "style": "string"
                                     },
                                     "name": "MyLabel11",
@@ -132,10 +162,12 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "style": "margin-left:5px;",
                                 "width": "80%"
                             },
                             "configAlternates": {
-                                "width": "auto"
+                                "width": "auto",
+                                "style": "string"
                             },
                             "name": "MyContainer48",
                             "designerId": "081b9188-45cc-48d1-8c5b-4e6de6e092a0",
@@ -164,11 +196,13 @@
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "html": "Sự kiện 1",
-                                                "style": "font-size: 17px;"
+                                                "html": [
+                                                    "<strong>{title}</strong>"
+                                                ],
+                                                "style": "font-size: 17px; margin-top:5px;"
                                             },
                                             "configAlternates": {
-                                                "html": "string",
+                                                "html": "binding",
                                                 "style": "string"
                                             },
                                             "name": "MyLabel12",
@@ -184,10 +218,14 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "height": "25%"
+                                        "height": "25%",
+                                        "html": [
+                                            "<i class=\"fa fa-calendar\"></i> {date_time}"
+                                        ]
                                     },
                                     "configAlternates": {
-                                        "height": "auto"
+                                        "height": "auto",
+                                        "html": "binding"
                                     },
                                     "name": "MyContainer52",
                                     "designerId": "3a3e07ae-c004-4d00-b3ea-d85e42cf919b",
@@ -200,10 +238,12 @@
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "html": "<i class=\"fa fa-calendar\"></i>1-1-2018 8:00"
+                                                "html": [
+                                                    "<i class=\"fa fa-calendar\"></i> {date_time}"
+                                                ]
                                             },
                                             "configAlternates": {
-                                                "html": "string"
+                                                "html": "binding"
                                             },
                                             "name": "MyLabel13",
                                             "designerId": "c4b598b1-50eb-47e5-bb30-292c53e9a94a"
@@ -234,10 +274,12 @@
                                             },
                                             "codeClass": null,
                                             "userConfig": {
-                                                "html": "<i class=\"fa fa-map-marker\"></i> Địa chỉ 88,p88,q88,tp.hcm"
+                                                "html": [
+                                                    "<i class=\"fa fa-map-marker\"></i> {address}"
+                                                ]
                                             },
                                             "configAlternates": {
-                                                "html": "string"
+                                                "html": "binding"
                                             },
                                             "name": "MyLabel14",
                                             "designerId": "af4c2ca9-2e84-4b1e-979f-1155e0a06a32"
@@ -257,8 +299,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "docked": "top",
-                        "height": "15%",
-                        "layout": "fit",
+                        "height": "17%",
+                        "layout": "hbox",
                         "zIndex": 99
                     },
                     "configAlternates": {
@@ -279,11 +321,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "layout": "fit",
-                                "margin": "1 1 1 5"
+                                "margin": "1 1 1 5",
+                                "width": "40%"
                             },
                             "configAlternates": {
                                 "layout": "string",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "width": "auto"
                             },
                             "name": "MyContainer49",
                             "designerId": "959b8c4a-e844-4393-8bd4-e6a2a3ad8460",
@@ -299,6 +343,7 @@
                                         "designer|uiInterfaceName": "raised",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-check",
+                                        "style": "border: 2px solid gray;font-size:13px;font-weight:100;",
                                         "text": "Tham gia",
                                         "ui": "raised"
                                     },
@@ -307,7 +352,8 @@
                                         "icon": "string",
                                         "iconCls": "string",
                                         "text": "string",
-                                        "ui": "string"
+                                        "ui": "string",
+                                        "style": "string"
                                     },
                                     "name": "MyButton2",
                                     "designerId": "2f79aeac-fc6a-46f7-ba30-5a6ae3103473"
@@ -323,11 +369,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "layout": "fit",
-                                "margin": "1 5 1 1"
+                                "margin": "1 5 1 1",
+                                "width": "57%"
                             },
                             "configAlternates": {
                                 "layout": "string",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "width": "auto"
                             },
                             "name": "MyContainer50",
                             "designerId": "e0fe59f0-0225-433c-b774-51c43a1162f3",
@@ -343,6 +391,7 @@
                                         "designer|uiInterfaceName": "raised",
                                         "icon": "true",
                                         "iconCls": "x-fa fa-times-circle",
+                                        "style": "border: 2px solid gray;font-size:13px;font-weight:100;",
                                         "text": "Không tham gia",
                                         "ui": "raised"
                                     },
@@ -351,7 +400,8 @@
                                         "designer|uiInterfaceName": "string",
                                         "icon": "string",
                                         "iconCls": "string",
-                                        "ui": "string"
+                                        "ui": "string",
+                                        "style": "string"
                                     },
                                     "name": "MyButton3",
                                     "designerId": "2747ad8f-c44b-4a12-b6d5-bdf8d8da5b2a"
@@ -361,6 +411,38 @@
                     ]
                 }
             ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "record",
+                    "eOpts"
+                ],
+                "fn": "updateRecord",
+                "implHandler": [
+                    "var me =this,",
+                    "    ctrl = me.getController();",
+                    "",
+                    "me.callParent(arguments);",
+                    "console.log(record);",
+                    "if (record) {",
+                    "    me.getViewModel().setData(record.getData());",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "updateRecord",
+            "designerId": "f96024c4-df62-46fd-a2ab-816e0e0103b4"
         }
     ]
 }

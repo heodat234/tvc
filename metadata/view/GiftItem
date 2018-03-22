@@ -1,0 +1,233 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "giftitem",
+        "designer|userClassName": "GiftItem",
+        "style": "",
+        "width": "50%"
+    },
+    "configAlternates": {
+        "margin": "auto",
+        "style": "string",
+        "width": "auto",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "MyContainer67",
+    "designerId": "f235a15f-bcd6-408a-a5db-2c8954dca14c",
+    "viewControllerInstanceId": "06aa96b2-a283-4c45-84d0-9a54e4c99222",
+    "viewModelInstanceId": "a8f00057-55b0-45dc-a715-de37a4fcd740",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "margin": 10,
+                "style": "border: 1px solid gray; border-radius:5%;"
+            },
+            "configAlternates": {
+                "margin": "auto",
+                "style": "string"
+            },
+            "name": "MyContainer4",
+            "designerId": "5eafcf8d-690e-4d5c-8ce6-71a2c7df459d",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": "80%",
+                        "layout": "center",
+                        "margin": 10
+                    },
+                    "configAlternates": {
+                        "height": "auto",
+                        "layout": "string",
+                        "margin": "auto"
+                    },
+                    "name": "MyContainer61",
+                    "designerId": "e7a2be5c-4e84-4fb0-92ac-41274d955716",
+                    "cn": [
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": "60%",
+                                "layout": "center",
+                                "style": "margin-bottom:10px;",
+                                "width": "80%"
+                            },
+                            "configAlternates": {
+                                "height": "auto",
+                                "layout": "string",
+                                "width": "auto",
+                                "style": "string"
+                            },
+                            "name": "MyContainer63",
+                            "designerId": "5506458a-14fc-463e-8e5a-1d567d691c84",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 100,
+                                        "src": [
+                                            "{image}"
+                                        ],
+                                        "style": "background-size:cover;",
+                                        "width": "100%"
+                                    },
+                                    "configAlternates": {
+                                        "src": "binding",
+                                        "height": "auto",
+                                        "style": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyImg2",
+                                    "designerId": "4a523996-ef4f-40ca-bacb-cc4e4714a1e0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": "30%",
+                                "style": "text-align:center;",
+                                "width": "80%"
+                            },
+                            "configAlternates": {
+                                "height": "auto",
+                                "width": "auto",
+                                "style": "string"
+                            },
+                            "name": "MyContainer64",
+                            "designerId": "736fd4c8-6cce-4b9d-be61-4291e113781d",
+                            "cn": [
+                                {
+                                    "type": "Ext.Label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": [
+                                            "{desc}"
+                                        ],
+                                        "width": "100%"
+                                    },
+                                    "configAlternates": {
+                                        "html": "binding",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyLabel15",
+                                    "designerId": "0bb5025e-377f-4ebb-9cae-13d9c40fd2b7"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": "20%",
+                        "layout": "fit"
+                    },
+                    "configAlternates": {
+                        "height": "auto",
+                        "layout": "string"
+                    },
+                    "name": "MyContainer62",
+                    "designerId": "7ed3bdde-d1ce-4a11-836c-5a6513ba7598",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "square",
+                                "style": "background-color:#e1e1e1;border-radius:5%;",
+                                "text": "Xem thêm",
+                                "ui": "square"
+                            },
+                            "configAlternates": {
+                                "designer|uiInterfaceName": "string",
+                                "text": "string",
+                                "ui": "string",
+                                "style": "string"
+                            },
+                            "name": "MyButton5",
+                            "designerId": "059fc137-3617-4a74-aa09-8b36923b3718"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "record",
+                    "eOpts"
+                ],
+                "fn": "updateRecord",
+                "implHandler": [
+                    "var me =this,",
+                    "    ctrl = me.getController();",
+                    "",
+                    "me.callParent(arguments);",
+                    "console.log(record);",
+                    "if (record) {",
+                    "    me.getViewModel().setData(record.getData());",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "updateRecord",
+            "designerId": "6b9a5b83-bd93-4d18-88c3-e75ef2dc1f8d"
+        }
+    ]
+}

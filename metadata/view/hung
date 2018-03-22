@@ -1,0 +1,51 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "hung",
+        "designer|userClassName": "hung",
+        "displayed": false,
+        "html": "",
+        "layout": "fit",
+        "masked": false,
+        "style": "'background-image:url(\"images/Nam 2.png\"); background-size:cover;"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "displayed": "boolean",
+        "height": "auto",
+        "html": "string",
+        "layout": "string",
+        "style": "string",
+        "masked": "boolean"
+    },
+    "name": "hung14",
+    "designerId": "728da84a-eb6f-44ae-a3ef-6d81d671ac8c",
+    "viewControllerInstanceId": "abf7978e-d763-4aaf-99f0-dbedb7ab98e3",
+    "viewModelInstanceId": "f2dfc312-3a8a-4b0d-a251-660b70dd0fa3",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "width": 400
+            },
+            "configAlternates": {
+                "layout": "string",
+                "width": "auto"
+            },
+            "name": "MyContainer2",
+            "designerId": "dd0f2731-c9f1-407d-ad54-b3a6aabce760"
+        }
+    ]
+}

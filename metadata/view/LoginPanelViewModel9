@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "payment",
+        "designer|userClassName": "LoginPanelViewModel9"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "LoginPanelViewModel9",
+    "designerId": "1a215aeb-497e-49ca-a66d-efb83f4cf4ca"
+}

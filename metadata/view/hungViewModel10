@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "hung11",
+        "designer|userClassName": "hungViewModel10"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "hungViewModel10",
+    "designerId": "513b0510-abdb-4922-bc2c-aeb2e205b3ce"
+}

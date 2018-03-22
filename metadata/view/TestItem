@@ -1,0 +1,89 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "testitem",
+        "designer|userAliasPrefix": "widget",
+        "designer|userClassName": "TestItem"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userAliasPrefix": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "MyContainer10",
+    "designerId": "5a117c9c-c69a-4507-b1a8-d65ee30197c9",
+    "viewControllerInstanceId": "9aed87c1-3933-42c3-8533-e19c7b495ed3",
+    "viewModelInstanceId": "a016d242-a512-49a2-b6d1-2e5e362c4ad8",
+    "cn": [
+        {
+            "type": "Ext.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": [
+                    "{title}"
+                ]
+            },
+            "configAlternates": {
+                "html": "binding"
+            },
+            "name": "MyLabel2",
+            "designerId": "9f718487-742a-494d-93d6-d252a4ab4aaf"
+        },
+        {
+            "type": "Ext.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            "configAlternates": {
+                "html": "string"
+            },
+            "name": "MyLabel4",
+            "designerId": "8f48cc14-9a52-4f74-8483-4b40d9f43f88"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "record",
+                    "eOpts"
+                ],
+                "fn": "updateRecord",
+                "implHandler": [
+                    "var me =this,",
+                    "    ctrl = me.getController();",
+                    "",
+                    "me.callParent(arguments);",
+                    "if (record) {",
+                    "    me.getViewModel().setData(record.getData());",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "updateRecord",
+            "designerId": "4e0c793f-168c-4550-bb78-54bbb9ea2f4e"
+        }
+    ]
+}

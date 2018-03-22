@@ -6,12 +6,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "data": [
-            "{    ",
-            "     title:'sự kiện 1',",
-            "     time:'2/5'",
-            "}"
-        ],
         "designer|userAlias": "event",
         "designer|userClassName": "LoginPanelViewModel5"
     },

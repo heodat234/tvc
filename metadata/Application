@@ -6,9 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
+        "models": [
+            "MyModel"
+        ],
         "name": "LoginApp",
         "views": [
-            "Menu",
+            "LoginPanel",
             "Notification",
             "News",
             "NewsDetail",
@@ -18,15 +21,19 @@
             "GiftDetail",
             "Payment",
             "PaymentDetail",
-            "phan_hoi",
-            "cai_dat",
-            "tai_khoan",
-            "QR_code"
+            "Support",
+            "MyEventItem",
+            "Contact",
+            "TestItem",
+            "GiftItem",
+            "Feedback",
+            "FeedbackDetail"
         ]
     },
     "configAlternates": {
         "name": "string",
-        "views": "typedarray"
+        "views": "typedarray",
+        "models": "typedarray"
     },
     "name": "Application",
     "designerId": "application"

@@ -1,0 +1,64 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mycontainer8",
+        "designer|userClassName": "MyContainer8",
+        "docked": "top"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "docked": "string"
+    },
+    "name": "MyContainer8",
+    "designerId": "5c0eb216-d2a4-43bf-b93d-eab56314db98",
+    "viewControllerInstanceId": "b2f3f4aa-a677-4e1f-88e6-39fc2c975d2f",
+    "viewModelInstanceId": "316f94f7-b47a-46df-9d88-1b591f4cb815",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "[{image:'Nam 1.png',title:'sadasdasd',content:'dsadasdasvdsfafasfasfas'}]"
+                ]
+            },
+            "configAlternates": {
+                "data": "array"
+            },
+            "name": "MyList",
+            "designerId": "3191f8c6-6637-4169-bbce-3f1f29eb4b4d",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "<img src=\"{image}\" width=\"300\" height=\"200\"><div>List Item {title}</div><div>{content}</div>"
+                        ]
+                    },
+                    "configAlternates": {
+                        "designer|displayName": "string",
+                        "implHandler": "code"
+                    },
+                    "name": "itemTpl",
+                    "designerId": "4ba745b5-b841-47be-a9ee-02faaa43058a"
+                }
+            ]
+        }
+    ]
+}
