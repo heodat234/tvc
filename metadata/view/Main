@@ -6,7 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "activeItem": 1,
+        "activeItem": 5,
+        "container|animation": "slide",
         "designer|initialView": true,
         "designer|userAlias": "main",
         "designer|userClassName": "Main",
@@ -36,9 +37,9 @@
                 "type": "array"
             },
             "codeClass": null,
-            "name": "support",
-            "designerId": "62bf38c6-8dc6-439a-b757-b3fa9c45e28d",
-            "masterInstanceId": "290563d1-9c1f-45ba-8d7b-c13d2aebb3f8"
+            "name": "dangnhap2",
+            "designerId": "998e6783-15b4-4d40-b984-0f1582fbcca8",
+            "masterInstanceId": "aa1c6ac7-a2df-4dbe-9bc4-d42cb4a94024"
         },
         {
             "type": "linkedinstance",
@@ -47,9 +48,53 @@
                 "type": "array"
             },
             "codeClass": null,
-            "name": "phan_hoi1",
-            "designerId": "c745b977-20dc-47f6-973a-c15329ac7610",
-            "masterInstanceId": "608ba45a-84d5-4c8b-bf7f-bc49f649ed9c"
+            "name": "xacnhan_dangnhap1",
+            "designerId": "715fe574-9db7-4fa6-8715-aa4dbb90ab14",
+            "masterInstanceId": "3bc5a220-342c-4902-a67c-412d2ccff04a"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "dat_matkhau2",
+            "designerId": "d1ba147b-6425-47d4-b8e5-76ef1b4fc5e5",
+            "masterInstanceId": "dd6e6553-26e4-4d98-98b3-89d56d892189"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "dat_matkhau11",
+            "designerId": "17dafdec-d59a-4222-855f-792b51782845",
+            "masterInstanceId": "8f86d09b-b99b-493e-aed4-e2d550fae9ed"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "xacnhan_dangky1",
+            "designerId": "f077af55-768f-4f6e-9490-28b572ad8a39",
+            "masterInstanceId": "463cb06d-a3ee-4eb9-af78-7dfd2839c25d"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "menu",
+            "designerId": "41c9c971-4ac6-4acd-a777-783e33ab06ef",
+            "masterInstanceId": "f78c66db-abd4-47cc-8b63-51e51fa34ea2"
         }
     ]
 }

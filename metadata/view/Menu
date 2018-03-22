@@ -575,6 +575,7 @@
                                                     },
                                                     "codeClass": null,
                                                     "userConfig": {
+                                                        "badgeText": "5",
                                                         "cls": [
                                                             "menu-button"
                                                         ],
@@ -600,42 +601,11 @@
                                                         "ui": "string",
                                                         "weight": "number",
                                                         "width": "auto",
-                                                        "docked": "string"
+                                                        "docked": "string",
+                                                        "badgeText": "string"
                                                     },
                                                     "name": "MyButton8",
                                                     "designerId": "f03ba24d-0c7c-42af-b0e4-1a428c0a0cfc"
-                                                },
-                                                {
-                                                    "type": "Ext.Label",
-                                                    "reference": {
-                                                        "name": "items",
-                                                        "type": "array"
-                                                    },
-                                                    "codeClass": null,
-                                                    "userConfig": {
-                                                        "cls": [
-                                                            "menu-label-text"
-                                                        ],
-                                                        "docked": null,
-                                                        "height": 17,
-                                                        "html": "2",
-                                                        "margin": "5 0 45 -15",
-                                                        "style": [
-                                                            "border-radius: 50%; background-color: red; text-align:center;"
-                                                        ],
-                                                        "width": 17
-                                                    },
-                                                    "configAlternates": {
-                                                        "html": "string",
-                                                        "cls": "typedarray",
-                                                        "style": "object",
-                                                        "docked": "string",
-                                                        "height": "auto",
-                                                        "margin": "auto",
-                                                        "width": "auto"
-                                                    },
-                                                    "name": "MyLabel7",
-                                                    "designerId": "f67065dc-e875-44f4-98f5-c667195d9069"
                                                 }
                                             ]
                                         }

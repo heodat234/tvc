@@ -239,7 +239,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "cls": [
-                                    "btn"
+                                    "tvc-btn"
                                 ],
                                 "designer|uiInterfaceName": "dangnhap",
                                 "docked": null,
@@ -302,7 +302,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "docked": "bottom",
-                                "margin": "20 70 0 70"
+                                "margin": "20 110 0 110"
                             },
                             "configAlternates": {
                                 "docked": "string",
@@ -312,112 +312,48 @@
                             "designerId": "4b3ec475-6246-4949-8234-c5fec0dcc221",
                             "cn": [
                                 {
-                                    "type": "Ext.Label",
+                                    "type": "Ext.Button",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "defaultListenerScope": true,
+                                        "cls": [
+                                            "label-btn"
+                                        ],
                                         "docked": "left",
-                                        "html": "<a class=\"link\" href=\"\">Đăng ký</a>",
-                                        "itemId": "mylabel1",
-                                        "margin": "",
-                                        "style": "text-align:center;font-size:9px;",
-                                        "width": 67
+                                        "text": "Đăng ký"
                                     },
                                     "configAlternates": {
-                                        "defaultListenerScope": "boolean",
-                                        "html": "string",
-                                        "itemId": "string",
-                                        "margin": "auto",
+                                        "cls": "typedarray",
                                         "docked": "string",
-                                        "style": "string",
-                                        "width": "auto"
+                                        "text": "string"
                                     },
-                                    "name": "MyLabel7",
-                                    "designerId": "d41129f7-de47-4972-86f3-fb992cccd003",
-                                    "cn": [
-                                        {
-                                            "type": "delegateeventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "designer|targetType": "Ext.Button",
-                                                "fn": "onButtonTap",
-                                                "implHandler": [
-                                                    "alert('Hung dep zai');"
-                                                ],
-                                                "name": "tap"
-                                            },
-                                            "configAlternates": {
-                                                "designer|targetType": "view",
-                                                "fn": "string",
-                                                "implHandler": "code",
-                                                "name": "string"
-                                            },
-                                            "name": "onButtonTap",
-                                            "designerId": "d1485544-067f-4603-be5b-95b85dd6750d"
-                                        }
-                                    ]
+                                    "name": "MyButton10",
+                                    "designerId": "566124b2-fada-4481-bae8-b3936d2cde7c"
                                 },
                                 {
-                                    "type": "Ext.Label",
+                                    "type": "Ext.Button",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "defaultListenerScope": true,
+                                        "cls": [
+                                            "label-btn"
+                                        ],
                                         "docked": "right",
-                                        "html": "<a class=\"link\" href=\"\">Liên hệ</a>",
-                                        "itemId": "mylabel2",
-                                        "margin": "",
-                                        "style": "text-align:center;font-size:9px;",
-                                        "width": 67
+                                        "text": "Liên hệ"
                                     },
                                     "configAlternates": {
-                                        "defaultListenerScope": "boolean",
-                                        "html": "string",
-                                        "itemId": "string",
-                                        "margin": "auto",
                                         "docked": "string",
-                                        "style": "string",
-                                        "width": "auto"
+                                        "text": "string",
+                                        "cls": "typedarray"
                                     },
-                                    "name": "MyLabel10",
-                                    "designerId": "52faaffa-640b-4710-9b0b-2c62d24d6240",
-                                    "cn": [
-                                        {
-                                            "type": "delegateeventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "designer|targetType": "Ext.Button",
-                                                "fn": "onButtonTap",
-                                                "implHandler": [
-                                                    "alert('Hung dep zai');"
-                                                ],
-                                                "name": "tap"
-                                            },
-                                            "configAlternates": {
-                                                "designer|targetType": "view",
-                                                "fn": "string",
-                                                "implHandler": "code",
-                                                "name": "string"
-                                            },
-                                            "name": "onButtonTap",
-                                            "designerId": "86605c61-864b-49f7-97d0-fa0208e31f0c"
-                                        }
-                                    ]
+                                    "name": "MyButton11",
+                                    "designerId": "c1ebc00d-df6b-4174-953d-79c423352aa2"
                                 }
                             ]
                         }

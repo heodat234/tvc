@@ -573,7 +573,7 @@
                                             "codeClass": null,
                                             "userConfig": {
                                                 "cls": [
-                                                    "btn"
+                                                    "tvc-btn"
                                                 ],
                                                 "designer|uiInterfaceName": "dangnhap",
                                                 "style": "text-transform :none;",

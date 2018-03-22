@@ -273,7 +273,7 @@
                     "userConfig": {
                         "docked": "top",
                         "layout": "center",
-                        "margin": "20%",
+                        "margin": "20% 0 0 0",
                         "scrollable": false
                     },
                     "configAlternates": {
@@ -294,7 +294,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "cls": [
-                                    "btn"
+                                    "tvc-btn"
                                 ],
                                 "designer|uiInterfaceName": "dangnhap",
                                 "docked": null,
@@ -347,7 +347,30 @@
                                     "designerId": "36480b1a-e597-47fd-9c57-f3f835ac6045"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "margin": " ",
+                        "width": "55%"
+                    },
+                    "configAlternates": {
+                        "docked": "string",
+                        "layout": "string",
+                        "margin": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyContainer28",
+                    "designerId": "a22381a8-7d8b-480a-955f-68173672a149",
+                    "cn": [
                         {
                             "type": "Ext.Label",
                             "reference": {
@@ -357,10 +380,10 @@
                             "codeClass": null,
                             "userConfig": {
                                 "defaultListenerScope": true,
-                                "docked": "bottom",
-                                "html": "<span>Bỏ qua thiết lập mật khẩu, <a class=\"link\" href=\"\">tiêp tục sử dụng</a></span>",
+                                "docked": "right",
+                                "html": "<span>Bỏ qua thiết lập mật khẩu, </span>",
                                 "itemId": "mylabel1",
-                                "margin": "10%",
+                                "margin": "10 0 0 0",
                                 "style": "text-align:center;font-size:9px;"
                             },
                             "configAlternates": {
@@ -371,34 +394,63 @@
                                 "docked": "string",
                                 "style": "string"
                             },
-                            "name": "MyLabel7",
-                            "designerId": "ddf714e6-c27b-44e9-a34c-9da71361b4c9",
-                            "cn": [
-                                {
-                                    "type": "delegateeventbinding",
-                                    "reference": {
-                                        "name": "listeners",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "designer|targetType": "Ext.Button",
-                                        "fn": "onButtonTap",
-                                        "implHandler": [
-                                            "alert('Hung dep zai');"
-                                        ],
-                                        "name": "tap"
-                                    },
-                                    "configAlternates": {
-                                        "designer|targetType": "view",
-                                        "fn": "string",
-                                        "implHandler": "code",
-                                        "name": "string"
-                                    },
-                                    "name": "onButtonTap",
-                                    "designerId": "5e6277fb-fe1e-4983-a509-b1ef36016f99"
-                                }
-                            ]
+                            "name": "MyLabel9",
+                            "designerId": "56dfd0f1-bbf6-4fc0-bb89-d34ba9292e73"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "margin": " ",
+                        "width": "45%"
+                    },
+                    "configAlternates": {
+                        "docked": "string",
+                        "layout": "string",
+                        "margin": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyContainer29",
+                    "designerId": "d885caca-785a-4b57-8f56-de698a9a568e",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "label-btn"
+                                ],
+                                "docked": "top",
+                                "margin": "0 0 0 -10",
+                                "style": "",
+                                "text": "tiếp tục sử dụng",
+                                "textAlign": "left",
+                                "ui": "",
+                                "width": 104
+                            },
+                            "configAlternates": {
+                                "docked": "string",
+                                "text": "string",
+                                "cls": "typedarray",
+                                "margin": "auto",
+                                "style": "string",
+                                "textAlign": "string",
+                                "ui": "string",
+                                "width": "auto"
+                            },
+                            "name": "MyButton20",
+                            "designerId": "ab424b0a-2b5f-43a4-a464-ce9be5dae972"
                         }
                     ]
                 }

@@ -155,12 +155,23 @@ tr{
     color: rgb(216, 194, 56);
     font-weight: 400;
 }
-.btn {
+.tvc-btn {
     background: rgb(246, 190, 0);
     border-radius:30px;
     font-weight: 200;
-    text-transform :none;
     font-size:12px;
+}
+.tvc-btn > .x-inner-el > .x-body-el > .x-text-el ,.label-btn > .x-inner-el > .x-body-el > .x-text-el {
+    text-transform :none;
+    color : rgb(24, 64, 67);
+}
+.label-btn > .x-inner-el > .x-body-el > .x-text-el {
+    font-size: 9px;
+}
+.login-label-btn > .x-inner-el > .x-body-el > .x-text-el{
+    font-size: 9px;
+    text-transform :none;
+    color : #fff;
 }
 .textField {
     border-radius: 20px;
@@ -267,4 +278,9 @@ tr{
 }
 .x-textfield .x-underline-el{
     display :none;
+}
+.x-button-menu-button >.x-badge-el {
+    border-radius: 50%;
+    margin: 10px 2px 0 0;
+    background: #ea3636;
 }
